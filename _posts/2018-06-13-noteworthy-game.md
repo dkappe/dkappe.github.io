@@ -2,6 +2,7 @@
 layout: post
 title: A noteworthy game
 author: Dietrich Kappe
+draft: true
 ---
 
 ID360 as white versus Gull.

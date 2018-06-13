@@ -2,6 +2,7 @@
 layout: post
 title: Test Server Update
 author: Dietrich Kappe
+draft: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis ligula id posuere lacinia. Pellentesque lacus metus, consectetur ac odio nec, ornare aliquet diam. Donec porta orci vitae turpis posuere aliquet. Integer ac magna eget turpis porta porta eu sit amet velit. Praesent tempus ac nulla ac posuere. Nunc sagittis neque sit amet ligula rutrum, eu efficitur nulla convallis. Mauris non libero eu est aliquam fermentum. Nam felis metus, pellentesque quis ornare sed, lacinia sodales augue. Curabitur quis est et velit aliquet interdum ut non justo. Donec congue aliquam lectus in ornare.

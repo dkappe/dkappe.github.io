@@ -2,6 +2,7 @@
 layout: post
 title: The way forward
 author: Leela Chess Team
+draft: true
 ---
 
 ## The way forward
