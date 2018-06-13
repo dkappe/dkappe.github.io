@@ -8,8 +8,8 @@ permalink:           pretty
 title:               "Leela Chess Zero"
 tagline:             'Chess from scratch'
 description:         'Official blog of the Leela Chess Zero project.'
-url:                 https://lczero.dkappe.com
-baseurl:             'https://lczero.dkappe.com'
+url:                 https://blog.lczero.org
+baseurl:             'https://blog.lczero.org'
 paginate:            10
 
 # About/contact
