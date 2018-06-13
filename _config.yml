@@ -9,7 +9,7 @@ title:               "Leela Chess Zero"
 tagline:             'Chess from scratch'
 description:         'Official blog of the Leela Chess Zero project.'
 url:                 https://lczero.dkappe.com
-baseurl:             ''
+baseurl:             'https://lczero.dkappe.com'
 paginate:            10
 
 # About/contact
