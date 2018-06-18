@@ -2,7 +2,7 @@
 layout: post
 title: The Way Forward
 author: Leela Chess Team
-
+date:   2018-6-18 12:16:01 -0600
 draft: true
 ---
 
