@@ -1,18 +1,51 @@
 ---
 layout: post
-title: The way forward
+title: The Way Forward
 author: Leela Chess Team
+
 draft: true
 ---
 
-## The way forward
+## The Way Forward
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis ligula id posuere lacinia. Pellentesque lacus metus, consectetur ac odio nec, ornare aliquet diam. Donec porta orci vitae turpis posuere aliquet. Integer ac magna eget turpis porta porta eu sit amet velit. Praesent tempus ac nulla ac posuere. Nunc sagittis neque sit amet ligula rutrum, eu efficitur nulla convallis. Mauris non libero eu est aliquam fermentum. Nam felis metus, pellentesque quis ornare sed, lacinia sodales augue. Curabitur quis est et velit aliquet interdum ut non justo. Donec congue aliquam lectus in ornare.
+With this post we hope to give an overview of where the project is now and where it is going. In particular, we'll address the status of the main training pipeline and the new test pipeline.
+
+### A brief history of Leela Chess Zero
+
+With the advent of Alpha Go Zero, the hunt was on to reproduce Deepmind's results. Leela Zero was a project to develop a Go playing engine with a Neural Network directing a MCTS. To make up for a lack of resources, a distributed effort was launched. The publication of the Alpha Zero paper for chess and shogi prompted a similar effort for chess.
+
+Leela Chess Zero is an adaptation of Leela Zero to chess, using Stockfish's position representation and move generation.
+
+### Bugs and self play
+
+Leela Chess Zero has had a number of issues and bugs that affected it's play. In roughly cronological order, they are:
 <!--more-->
-Donec et nibh ligula. Nulla vitae porta urna, aliquam bibendum turpis. Mauris faucibus neque et viverra tincidunt. Nam sed leo ipsum. Suspendisse vitae enim orci. Curabitur id facilisis sem. Donec vulputate hendrerit elit eu porta. Vestibulum tristique purus quis sem tincidunt, placerat fermentum lorem rhoncus. Aliquam erat volutpat. Aenean pretium libero tempor eros volutpat porttitor. Praesent a lectus erat. Quisque porttitor dolor sapien, placerat sollicitudin est venenatis vitae. Pellentesque tristique urna non ultricies lacinia. Cras tristique bibendum dui, vitae sagittis nisi accumsan ut. Mauris quis dictum magna.
 
-Sed sollicitudin risus non semper placerat. Phasellus lobortis euismod sapien. Donec eget est placerat, dignissim urna a, iaculis odio. Mauris ut tincidunt orci, sed facilisis mauris. Mauris condimentum nisi sit amet bibendum scelerisque. Cras purus magna, venenatis in lobortis eget, elementum at lorem. Vestibulum at ipsum eget orci pellentesque semper vitae quis purus. Pellentesque dapibus diam id metus luctus blandit. Nunc in commodo justo. Praesent aliquam sapien dignissim, accumsan velit a, molestie ex. Aliquam at nisi eget risus pretium maximus. Curabitur malesuada, dolor eu pharetra ultrices, neque justo vestibulum lacus, at elementum ipsum magna nec lacus. Integer sed hendrerit turpis, non pharetra lorem.
+1. Move count disabled
+2. Underpromotion
+3. FPU
+4. Two inputs to the Neural Network (rule50 and the all 1s plane) were not connected properly.
+5. Oversampling
+6. Rule 50 not normalized
 
-Maecenas vel odio posuere, pulvinar eros ac, venenatis sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur rutrum tellus in nisl venenatis, eget eleifend enim tempor. Donec nisi nisl, iaculis mattis velit nec, elementum maximus nunc. Quisque vulputate tortor viverra purus luctus, vitae laoreet est luctus. Morbi eget sollicitudin ipsum. Nunc quis nunc at risus rhoncus mattis. Integer vel sem non felis eleifend dictum. Phasellus eget ligula quis ligula laoreet dapibus. Phasellus fringilla tincidunt pretium. Ut ultrices rutrum mi sed porttitor. Ut arcu lectus, mollis efficitur leo nec, ultricies porta libero. Quisque finibus vulputate mollis. Fusce metus felis, molestie non ornare vitae, aliquet quis quam. Etiam velit magna, congue non dictum lobortis, fringilla sed justo.
+We'll go into each of these in greater depths in future posts.
 
-Donec non mollis turpis, a ultricies dui. In pulvinar commodo felis in blandit. Cras semper augue ac magna tincidunt egestas. Fusce nisl lorem, laoreet eu eros sed, pharetra blandit justo. Maecenas egestas quam ligula, vitae dignissim lorem euismod quis. Cras magna nisi, rhoncus hendrerit augue in, tempus volutpat tortor. Nullam efficitur augue justo, eget eleifend diam porta sed. Fusce at ex dui. In rutrum dictum lectus, ac laoreet urna vehicula a. Cras ut consequat diam, vitae consectetur libero. Duis sed leo pretium, porta magna et, dignissim ligula. Suspendisse nec sagittis massa, id vehicula diam. Mauris interdum viverra malesuada. Curabitur in arcu in lectus convallis blandit et nec ipsum. Sed at feugiat odio.
+Since LCZ trains its neural network from self play games, these bugs have an affect on the play and, consequently, it's training. The underpromotion bug, for example, resulted in the black side not promoting pawns to queens. Fixing the bugs improved play and in some cases the network played it's way out of the problem, in others slowly or not completely.
+
+Since the mainline network didn't seem to be recovering fully, a decision was made to bootstrap a network from scratch on self play games that were not directly affected by bugs. This network was placed into the main training pipeline as ID396 on June 10th, 2018 and has been the root of subsequent nets. (Another bootstrap network was placed into the training pipeline on June 17th.)
+
+#### TCEC Season 13
+
+Which network will be used for TCEC Season 13? That depends on a number of factors.
+
+1. What hardware will be available? LCZ runs much better on GPU's. Rumor has it that GPU's may or may not be available. Stay tuned for a future blog post
+2. How far will the rating have recovered after the bootstrap net?
+3. Will a new pipeline be able to produce a super strong 128x10 net that will run better on CPU?
+
+### lczero, lc0 and the test pipeline
+
+Soon after the start of the Leela Chess Zero project, some on the team started an effort to rewrite the engine from scratch. Once all was said and done, the new engine -- dubbed lc0 -- was able to search 4-8 times quicker than the original lczero on nvidia GPU's. This held great promise for increasing the number of training games. In order to test the new engine and several other ideas, the team created a test training pipeline where they have been trying out new ideas and processes.
+
+They've trained several generations of neural networks from scratch to see which NN hyperparameters give the best results. Once all the issues have been shaken out, the team anticipates rolling out the new software to train networks in the main pipeline from scratch.
+
+With the performance of lc0, the pace of training should be prodigious indeed. Stay tuned for announcements as the rollout date approaches.
