@@ -18,7 +18,7 @@ Leela Chess Zero is an adaptation of Leela Zero to chess, using Stockfish's posi
 
 ### Bugs and self play
 
-Leela Chess Zero has had a number of issues and bugs that affected it's play. In roughly cronological order, they are:
+Leela Chess Zero has had a number of issues and bugs that affected its play. In roughly cronological order, they are:
 <!--more-->
 
 1. Move count disabled
@@ -30,7 +30,7 @@ Leela Chess Zero has had a number of issues and bugs that affected it's play. In
 
 We'll go into each of these in greater depths in future posts.
 
-Since LCZ trains its neural network from self play games, these bugs have an affect on the play and, consequently, it's training. The underpromotion bug, for example, resulted in the black side not promoting pawns to queens. Fixing the bugs improved play and in some cases the network played it's way out of the problem, in others slowly or not completely.
+Since LCZ trains its neural network from self play games, these bugs have an affect on the play and, consequently, its training. The underpromotion bug, for example, resulted in the black side not promoting pawns to queens. Fixing the bugs improved play and in some cases the network played its way out of the problem, in others slowly or not completely.
 
 Since the mainline network didn't seem to be recovering fully, a decision was made to bootstrap a network from scratch on self play games that were not directly affected by bugs. This network was placed into the main training pipeline as ID396 on June 10th, 2018 and has been the root of subsequent nets. (Another bootstrap network was placed into the training pipeline on June 17th.)
 
@@ -44,7 +44,9 @@ Which network will be used for TCEC Season 13? That depends on a number of facto
 
 ### lczero, lc0 and the test pipeline
 
-Soon after the start of the Leela Chess Zero project, some on the team started an effort to rewrite the engine from scratch. Once all was said and done, the new engine -- dubbed lc0 -- was able to search 4-8 times quicker than the original lczero on nvidia GPU's. This held great promise for increasing the number of training games. In order to test the new engine and several other ideas, the team created a test training pipeline where they have been trying out new ideas and processes.
+Soon after the start of the Leela Chess Zero project, some on the team, lead by Alexander Lyashuk (@crem on the discord chat), started an effort to rewrite the engine from scratch. Once all was said and done, the new engine -- dubbed lc0 -- was able to search 4-8 times quicker than the original lczero on NVIDIA GPU's. This held great promise for increasing the number of training games. In order to test the new engine and several other ideas, the team created a test training pipeline where they have been trying out new ideas and processes.
+
+#### Future Plans
 
 They've trained several generations of neural networks from scratch to see which NN hyperparameters give the best results. Once all the issues have been shaken out, the team anticipates rolling out the new software to train networks in the main pipeline from scratch.
 
