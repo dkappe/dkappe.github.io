@@ -3,6 +3,7 @@ layout: post
 title: A noteworthy game
 author: Dietrich Kappe
 draft: true
+date: 2018-06-20
 ---
 
 ID360 as white versus Gull.
