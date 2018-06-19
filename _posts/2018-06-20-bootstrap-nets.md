@@ -20,11 +20,11 @@ Based on the lack of progress, a second bootstrap was started to test if keeping
 Given that there was much more potential in the second bootstrap, it was switched over to the main pipeline at ID 421. The second bootstrap is strengthening and will hopefully surpass the strength of the previous main network.
 
 Hyper parameters used for second bootstrap:
-```
-Batch Size: 512 (based on memory limitations of the GPU used in training)
-Number of games: set to accomplish a sampling rate of 0.5
-Learning rate:
-0.025 (70,000-225,000 steps)
-0.0085 (225,000-275,000 steps)
-0.0025 (275,000-300,000 steps)
-```
+
+    Batch Size: 512 (based on memory limitations of the GPU used in training)
+    Number of games: set to accomplish a sampling rate of 0.5
+    Learning rate:
+    0.025 (70,000-225,000 steps)
+    0.0085 (225,000-275,000 steps)
+    0.0025 (275,000-300,000 steps)
+
