@@ -43,7 +43,7 @@ Which network will be used for TCEC Season 13? That depends on a number of facto
 
 ### lczero, lc0 and the test pipeline
 
-Soon after the start of the Leela Chess Zero project, some on the team, lead by Alexander Lyashuk (@crem on the discord chat), started an effort to rewrite the engine from scratch. Once all was said and done, the new engine -- dubbed lc0 -- was able to search 4-8 times quicker than the original lczero on NVIDIA GPU's. This held great promise for increasing the number of training games. In order to test the new engine and several other ideas, the team created a test training pipeline where they have been trying out new ideas and processes. They've trained several generations of neural networks from scratch to see which NN hyperparameters give the best results. They are also experimenting with features like automatic resignation to increase the quantity and quality of self play training games.
+Soon after the start of the Leela Chess Zero project, some on the team, led by Alexander Lyashuk (@crem on the discord chat), started an effort to rewrite the engine from scratch. Once all was said and done, the new engine -- dubbed lc0 -- was able to search 4-8 times quicker than the original lczero on NVIDIA GPU's. This held great promise for increasing the number of training games. In order to test the new engine and several other ideas, the team created a test training pipeline where they have been trying out new ideas and processes. They've trained several generations of neural networks from scratch to see which NN hyperparameters give the best results. They are also experimenting with features like automatic resignation to increase the quantity and quality of self play training games.
 
 #### Future Plans
 
