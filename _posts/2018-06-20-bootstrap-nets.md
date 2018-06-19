@@ -14,7 +14,7 @@ As has been previously mentioned, the neural networks trained from self play gam
 
 <!--more-->
 
-Based on the 16 million games available, it was easy to eliminate games 4-6.5 million as they were heavily infected with the "black underpromotion bug." Extra games were excluded (11-15 million) based on the regression observed in testing (possibly biased with the oversampling issue).
+Based on the 16 million games available, it was easy to eliminate games 4-6.5 million as they were heavily infected with the "black underpromotion bug." Extra games were excluded (11-15 million) based on the regression observed in testing (possibly affected by the oversampling issue).
 
 The first bootstrap used 5 million games for the first half of training and then between 500,000 and 1 million after that. The “window” of games was regularly updated to include recent games.
 
