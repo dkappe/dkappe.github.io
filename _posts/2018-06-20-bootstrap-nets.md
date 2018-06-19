@@ -1,6 +1,8 @@
 ---
 layout: post
-
+title: The Bootstrap Network
+author: Ben
+date:   2018-6-20 12:16:01 -0600
 ---
 As has been previously mentioned, the neural networks trained from self play games were not fully recovering from some of the bugs and issues present during the projects’ lifespan. I decided to train, or “bootstrap,” a new 192x15 network from scratch using only “clean” games, i.e. those self play games free from the effects of bugs.
 
