@@ -29,7 +29,7 @@ Leela Chess Zero has had a number of issues and bugs that affected its play. In 
 
 We'll go into each of these in greater depths in future posts.
 
-Since LCZ trains its neural network from self play games, these bugs have affected the play and, consequently, its training. The underpromotion bug, for example, resulted in the black side not promoting pawns to queens. Fixing the bugs improved play and in some cases the network played its way out of the problem, in others slowly or not completely.
+Since LCZ trains its neural network from self play games, these bugs have affected the play and, consequently, its training. The underpromotion bug, for example, resulted in the black side not promoting pawns to queens. Fixing the bugs improved play and in some cases the network played its way out of the problem, in others the recovery was slow or not incomplete.
 
 Since the mainline network didn't seem to be recovering fully, a decision was made to bootstrap a network from scratch on self play games that were not directly affected by bugs. This network was placed into the main training pipeline as ID396 on June 10th, 2018 and has been the root of subsequent nets. (Another bootstrap network was placed into the training pipeline on June 17th.)
 
