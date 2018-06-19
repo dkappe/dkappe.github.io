@@ -12,6 +12,8 @@ draft: true
 
 As has been previously mentioned, the neural networks trained from self play games were not fully recovering from some of the bugs and issues present during the projects’ lifespan. I decided to train, or “bootstrap,” a new 192x15 network from scratch using only “clean” games, i.e. those self play games free from the effects of bugs.
 
+<!--more-->
+
 Based on the 16 million games available, it was easy to eliminate games 4-6.5 million as they were heavily infected with the "black underpromotion bug." Extra games were excluded (11-15 million) based on the regression observed in testing (possibly biased with the oversampling issue).
 
 The first bootstrap used 5 million games for the first half of training and then between 500,000 and 1 million after that. The “window” of games was regularly updated to include recent games.
