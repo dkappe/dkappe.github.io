@@ -47,6 +47,6 @@ Soon after the start of the Leela Chess Zero project, some on the team, led by A
 
 #### Future Plans
 
-Once all the issues have been shaken out, the team anticipates rolling out the new software to train networks in the main pipeline from scratch. The team is planning to start with a 256x20 net but will train 64x6, 128x10 and 192x15 nets at the same time so that lczero enthusiasts will have strong smaller nets that will run on their hardware platforms.
+Once all the issues have been shaken out, the team anticipates rolling out the new software to train networks in the main pipeline from scratch. The team is planning to start with a 256x20 net but will train 64x6, 128x10 and 192x15 nets at the same time so that leela enthusiasts will have strong smaller nets that will run on their specific hardware platforms.
 
 With the performance of lc0, the pace of training should be prodigious indeed. Stay tuned for announcements as the rollout date approaches.
