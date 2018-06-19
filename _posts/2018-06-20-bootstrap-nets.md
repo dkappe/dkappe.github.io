@@ -29,6 +29,7 @@ Hyper parameters used for second bootstrap:
     Batch Size: 512 (based on memory limitations of the GPU used in training)
     Number of games: set to accomplish a sampling rate of 0.5
     Learning rate:
+    0.2 (0-70,000)
     0.025 (70,000-225,000 steps)
     0.0085 (225,000-275,000 steps)
     0.0025 (275,000-300,000 steps)
