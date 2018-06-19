@@ -20,6 +20,7 @@ github:
   repo:              https://github.com/LeelaChessZero
 rss:
   image:             https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/72BD29AF-BBDE-484E-981A-204005D35506.png
+  url:               /atom.xml
 # Custom vars
 excerpt_separator: <!--more-->
 logo: https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/logo.png
