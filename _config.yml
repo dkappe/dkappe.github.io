@@ -16,7 +16,8 @@ paginate:            10
 author:
   name:              Leela Chess Team
   url:               https://twitter.com/leelachesszero
-
+github:
+  repo:              https://github.com/LeelaChessZero
 
 # Custom vars
 excerpt_separator: <!--more-->
