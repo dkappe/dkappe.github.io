@@ -5,6 +5,11 @@ author: Ben
 date:   2018-6-20 12:16:01 -0600
 draft: true
 ---
+
+[early nn]: https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/7955F47E-263A-443E-87E2-F535A1F5A341.jpeg
+
+## Bootstrap Nets
+
 As has been previously mentioned, the neural networks trained from self play games were not fully recovering from some of the bugs and issues present during the projects’ lifespan. I decided to train, or “bootstrap,” a new 192x15 network from scratch using only “clean” games, i.e. those self play games free from the effects of bugs.
 
 Based on the 16 million games available, it was easy to eliminate games 4-6.5 million as they were heavily infected with the "black underpromotion bug." Extra games were excluded (11-15 million) based on the regression observed in testing (possibly biased with the oversampling issue).
