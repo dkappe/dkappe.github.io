@@ -6,7 +6,7 @@ date:   2018-6-20 12:16:01 -0600
 draft: true
 ---
 
-[early nn]: https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/7955F47E-263A-443E-87E2-F535A1F5A341.jpeg
+![early nn](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/7955F47E-263A-443E-87E2-F535A1F5A341.jpeg)
 
 ## Bootstrap Nets
 
