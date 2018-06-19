@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Bootstrap Network
-author: Ben
+author: Ben Reese
 date:   2018-6-20 12:16:01 -0600
 draft: true
 ---
