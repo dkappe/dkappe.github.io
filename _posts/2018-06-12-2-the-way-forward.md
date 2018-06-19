@@ -17,7 +17,7 @@ Leela Chess Zero (LCZ) is an adaptation of Leela Zero to chess, using Stockfish'
 
 ### Bugs and self play
 
-Leela Chess Zero has had a number of issues and bugs that affected its play. In roughly cronological order, they are:
+Leela Chess Zero has had a number of issues and bugs that affected its play. In roughly chronological order, they are:
 <!--more-->
 
 1. Move count disabled
