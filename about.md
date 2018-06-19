@@ -14,7 +14,7 @@ We will need to do this with a distributed project, as it requires a huge amount
 
 ### Contact us
 
-You can contact the Leela Chess Zero Tean via the following
+You can contact the Leela Chess Zero Team via the following
 
 - [discord chat](https://discordapp.com/invite/pKujYxD) (best)
 - [google group](https://groups.google.com/forum/#!forum/lczero)
