@@ -5,6 +5,8 @@ author: Leela Chess Team
 date:   2018-6-18 12:16:01 -0600
 ---
 
+![wagon](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/68EFB42C-6BB4-4A5A-92BA-A819403CF99E.jpeg)
+
 ## The Way Forward
 
 With this post we hope to give an overview of where the project is now and where it is going. In particular, we'll address the status of the main training pipeline and the new test pipeline.
