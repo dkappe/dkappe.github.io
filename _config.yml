@@ -24,3 +24,4 @@ rss:
 # Custom vars
 excerpt_separator: <!--more-->
 logo: https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/logo.png
+public_base: https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public
