@@ -6,7 +6,7 @@ draft: true
 ---
 ## Project update
 
-This past week saw a lot of work in the testing pipeline on resignation. The idea is that a small number of resignations in hopeless positions will increase the quality and quantity of positions that are fed to the network training. An advantage of testing before it’s rolled out, is that the facts can be identified before hand. So it with “false positives,” resignation in drawn or won positions. The team is working to smooth out these rough spots.
+This past week saw a lot of work in the testing pipeline on resignation. The idea is that a small number of resignations in hopeless positions will increase the quality and quantity of positions that are fed to the network training. An advantage of testing before it’s rolled out is that the bugs can be identified before hand. we've run into a defect we call “false positives,” in other words resignation in drawn or won positions. The team is working to correct this and other defects
 
 ## When will lc0 arrive?
 
