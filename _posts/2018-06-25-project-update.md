@@ -1,7 +1,7 @@
 ---
 title: Project Update
 author: Team
-date: 2018-06-27
+date: 2018-06-26
 draft: true
 ---
 
