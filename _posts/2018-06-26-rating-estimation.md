@@ -42,6 +42,8 @@ the results, while more than doubling gamerate.
 I’ve been providing up-to-date ratings, progress graphs, and scaling information for the Leela Chess Zero project since March
 2018.
 
+The information is contained within this [google spreadsheet](https://docs.google.com/spreadsheets/d/1XSJiCcQpCLv0fNwrUn7jXjdkZFU63YFEWpdXv6dSSg0/edit#gid=0).
+
 ### What's Next
 
 For the upcoming Lc0 training run, I am working on implementing some further updates and improvements, including:
