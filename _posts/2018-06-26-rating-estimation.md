@@ -1,7 +1,7 @@
 ---
 title: Estimating Leela's Strength, Part 1
 author: MTGoStark
-date: 2018-06-26
+date: 2018-06-26-00:15
 ---
 
 ![img](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/jumble.jpg)
