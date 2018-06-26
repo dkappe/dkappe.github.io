@@ -1,6 +1,6 @@
 ---
 title: Project Update
-author: Team
+author: Leela Chess Team
 date: 2018-06-26
 draft: true
 ---
