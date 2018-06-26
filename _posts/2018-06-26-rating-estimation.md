@@ -5,6 +5,8 @@ date: 2018-06-26
 draft: true
 ---
 
+![img](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/jumble.png)
+
 ## The CCRL Rating List
 
 The Leela CCRL Estimate rating list initially began as a personal project, with the goals of a) rating Stockfish difficulties
@@ -45,7 +47,7 @@ I’ve been providing up-to-date ratings, progress graphs, and scaling informati
 
 For the upcoming Lc0 training run, I am working on implementing some further updates and improvements, including:
 
-1.	Improved calibration to CCRL standard and FIDE equivalent
+1. Improved calibration to CCRL standard and FIDE equivalent
 1. Faster testing methodology – goal is to provide rating for every net rather than every 5 (assuming similar schedule)
 1. More organized and easier to maintain backend
 1. Stockfish 9 scaling curve
