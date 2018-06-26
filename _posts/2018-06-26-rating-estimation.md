@@ -1,5 +1,5 @@
 ---
-title: Estimating Leela's Strengh, Part 1
+title: Estimating Leela's Strength, Part 1
 author: MTGoStark
 date: 2018-06-26
 ---
