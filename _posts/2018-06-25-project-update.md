@@ -4,6 +4,7 @@ author: Leela Chess Team
 date: 2018-06-26
 draft: true
 ---
+![logo](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/logo.png)
 
 ## Project Update
 
