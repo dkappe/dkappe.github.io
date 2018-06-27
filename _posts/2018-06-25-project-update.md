@@ -1,7 +1,9 @@
 ---
+layout: post
 title: Project Update
 author: Leela Chess Team
 date: 2018-06-26-23:00
+tag: update
 ---
 ![logo](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/logo.png)
 
