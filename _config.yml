@@ -6,7 +6,7 @@ permalink:           pretty
 
 # Setup
 title:               "Leela Chess Zero"
-tagline:             'Chess from scratch'
+tagline:             'Chess learned from scratch'
 description:         'Official blog of the Leela Chess Zero project.'
 url:                 https://blog.lczero.org
 baseurl:             'https://blog.lczero.org'
