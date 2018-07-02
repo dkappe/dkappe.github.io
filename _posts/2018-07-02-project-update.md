@@ -4,7 +4,6 @@ title: Project Update
 author: Leela Chess Team
 date: 2018-07-02-02:00
 tag: update
-draft: true
 ---
 ![logo](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/logo.png)
 
