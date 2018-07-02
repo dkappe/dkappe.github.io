@@ -15,5 +15,5 @@ draft: true
 3. Resign is working. Fingers crossed.
 4. Even compressed, the 256x20 weights file is 130MB. That’s a burden on clients, servers and chews up a lot of time. The last thing before rollout of lc0 to the main pipeline, is shrinking the weights file, either by reducing precision to fp16 (there’s also a 8 bit experimental effort), or by moving to a specialized compression library.
 1. The blas backend computed the NN incorrectly, and this was fixed today (7/2/2018)
-1. lc0 now supports fp16 computation!
+1. lc0 now supports fp16 computation! WARNING: this is for high end cards like the Titan V; GTX cards not supported.
 5. New pipeline won’t be next week, and probably not week after next, so more cooking on the existing main net.
