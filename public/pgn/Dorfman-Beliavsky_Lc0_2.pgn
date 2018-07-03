@@ -1,0 +1,109 @@
+﻿[Event "Lvov zt"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Dorfman, Iosif"]
+[Black "Beliavsky, Alexander"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "8/8/5kp1/7p/R6P/6P1/5PK1/4q3 w - - 0 56"]
+[PlyCount "1"]
+[SourceVersionDate "2018.03.19"]
+
+{Lc0 is an AI which has been criticized for being a poor endgame player. Here
+is a position from an actual game, from which we will look at several
+different analyses. This position is an interesting one from which to evaluate
+Lc0, since the position is an extremely deep and subtle ending that
+traditional engines have trouble with for several reasons. First, we can note
+that there are too many pieces on the board initially for current tablebases
+to provide a clear answer, though as we progress into the variations,
+tablebase hits will occur and provide us with clarity. The other reasons are
+all synergystic with one another: material stands at a significant imbalance
+in the traditional point count, it is not a highly tactical position with only
+one major piece for each side and no minor pieces, the pawn structure is
+relatively locked (white will not be keen to push the f-pawn), and in fact,
+white does in some variations threaten to set up a surprising, but known,
+theoretical fortress (for example, if both pairs of the g- and h-pawns are
+exchanged, and the f-pawn remains on f2, this is impenetrable). We know that
+SF 8 and 9 are currently absolutely stronger than Lc0, though these
+traditional engines are relatively weak positionally (compared to their
+tactical strength) and Lc0 is known to be strong positionally (relative to its
+tactical strength). All of the factors in the present position make it a
+fertile ground for Lc0 to attempt to prove that it is not bad in "endgames"
+per se. Here we will, at various positions, present analysis from up to 6
+different sources (though not all of them for all positions): 1) Dvoretsky's
+Endgame Manual by Mark Dvoretsky, from which I was introduced to this position
+in my studies, and I reference it here, where it should be noted that
+Dvoretsky introduces this position by mentioning that "V. Khenkin supplied a
+detailed analysis for this ending."; 2) Stockfish 8; 3) Stockfish 9; 4)
+Stockfish 9 with 6-man Syzygy Tablebases; 5) Lc0 449, searching an appropriate
+fraction of the nodes of the Stockfish engines; 6) myself, as I offer that my
+chosen truncation of the analysis for certain positions is relevant, even with
+SF9 connected to tablebases, based on how complex this position actually is.} {
+"Where does the rook belong, on e3 or f4? It turns out that both squares are
+good when the black king is on d5; but the rook should stand on f4 (to protect
+g4) while the black king remains on the kingside." -DEM} 56. Ra3 $2 {"In the
+actual game, I. Dorfman undertook a premature transfer to e3."-DEM} ({"A draw
+could be reached by means of" - DEM} 56. Rf4+ $1 {at 180 nodes, this is Lc0's
+top choice, and at 3M nodes, SF8's evaluation doesn't distinguish between this
+at -4.15 evaluation and several other rook moves, though Rf4+ was listed as
+the top one} Ke5 57. Rf8 (57. Ra4 {"is also good." -DEM}) (57. Rf7 {according
+to my analysis, other moves work as well here, such as this one, though it's
+not mentioned in DEM}) 57... Qe4+ 58. Kg1 Qc6 59. Rf4 $1 {emphasis that this
+is an only move is mine. initially and at 400 nodes, Lc0 correctly concludes
+that this is the best move. at 7M nodes, SF8 lists this as one of four moves,
+all with -4.12 evaluations, though it's not listed as the number 1 move.} (59.
+Rf7 $2 {this is an error with the different position of the queen, which is
+also not mentioned by DEM and is the main variation we will be looking at. At
+34M nodes, SF8 lists this incorrect move as the top move, though it's tied,
+along with 2 other moves, in evaluation with the correct Rf4.} Qc4 (59... Qc1+
+{is the only other move that also wins. unfortunately Lc0 doesn't rate either
+of these very highly. SF 8 seems to like both of these moves by 90M nodes,
+though it doesn't really distinguish them as a win in its evaluation or from 2
+other moves that draw.}) 60. Rf3 Qc1+ $1 {Lc0 highly prefers this only move
+right from the start, whereas SF 8 requires about 33M nodes to slightly prefer
+it over other moves.} 61. Kh2 Kd4 $1 {only move. at 16M nodes, SF 8 prefers
+this move very slightly over other evaluations, at -4.41 or so, unfortunately
+Lc0 doesn't seem to get this move, as it's 10th on its preference list} 62. Re3
+Qf1 $1 {both Lc0 and SF 8 tend to prefer this only move immedately. whereas
+SF8 doesn't give it any conclusive preference, Lc0 seems to prefer it strongly.
+} 63. Rf3 Qe2 {the most direct. at over 50k nodes, Lc0 doesn't consider this
+very strongly, preferring 63...Qb5 (and not seeing the repeat with 64...Qf1!)
+so I would consider that incorrect. at 100M nodes, SF 8 doesn't seem to prefer
+any move over any others.} (63... Qb5 {only repeats} 64. Re3 Qf1 $1 {SF 8 sees
+quickly that this repeat is the best move in the position, though the
+evaluation is only slightly better than other moves. Lc0 doesn't prefer this
+move much at all at around 1000 nodes.} 65. Rf3) 64. Rf4+ Kd3 {Lc0 strongly
+prefers this move right from even under 100 nodes} (64... Kc3 {these are the
+only two moves that maintain the win here, and SF 8 shows a slight edge for
+these two moves at 10M nodes, and it diverges a bit further around 50M nodes,
+though not a large difference in evaluation to other moves.}) 65. Kg2 Kd2 (
+65... Kc2 {at over 100M nodes, SF 8 seems to show no preference for either of
+these moves. at 855 nodes, Lc0 is not preferring either of them highly at all.}
+) 66. Ra4 Qe6 67. Kg1 Qd5 {is fast} (67... Qc6 68. Ra2+ (68. Rf4 Ke2 {other
+moves win as well, where here the f-pawn eventually drops}) 68... Kd3 $1 {
+with this concession of the 4th rank, white has given up the possibility of
+keeping the rook on f4, and black exploits this with a series of only moves to
+head to the kingside. SF 8 shows no preference for any given move after 100M
+nodes. Lc0 interestingly prefers this move between 97 and 136 nodes, though
+after that and up to over 4000 nodes, it has a strong preference for ...Ke1}
+69. Ra3+ Ke4 $1 {with almost 200M nodes, SF 8 has no preference for any given
+move. Lc0 says this is absolutely the best here at under 1000 nodes!} 70. Re3+
+Kf5 $1 {SF 8 shows a slight preference for this move within 5-10M nodes. Lc0
+shows an extremely strong preference for this move at under 1000 nodes!} 71.
+Kh2 Kg4 $19 {and the initial analysis from DEM regarding the position of the
+white rook with the black king on the kingside holds true}) (67... Qb3 68. Rd4+
+Kc2 $19 {Lc0 seems to incorrectly prefer a king move to the e-file here still
+at around 1000 nodes.} (68... Kc3 {SF 8 seems to start to slightly prefer this
+move to the c-file at just under 100M nodes.}) (68... Kc1)) 68. Ra3 g5 $1 {
+at 183M nodes, SF 8 shows no preference for this move at all. at 5000 nodes,
+Lc0 doesn't give this move any credit.} 69. hxg5 Qxg5 $1 $19 {at 100M nodes,
+SF 8 shows no preference for this move over any others. even at low numbers of
+nodes, Lc0 claims this is absolutely the best move in the position.}) 59...
+Qc1+ 60. Kg2 $1 $11 {emphasis that this is an only move is mine. this required
+Lc0 449 to achieve 1082 nodes to recognize that its initial idea of Kh2 is not
+best and change to Kg2. However, at 2000 nodes, it just seems to slightly
+prefer Kg2, not recognizing that it's winning. at 1.6M nodes, SF8 doesn't
+distinguish between Kg2 and Kh2, though at roughly 5M nodes, it sees that Kh2
+is losing.}) 0-1
+
