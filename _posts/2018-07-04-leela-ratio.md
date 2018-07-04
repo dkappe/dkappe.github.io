@@ -2,11 +2,11 @@
 layout: post
 author: Dietrich Kappe
 title: The Leela Ratio
-date: 2018-07-04-06:00
+date: 2018-07-04-23:00
 draft: true
 ---
 
-## Leela Ratio; What is it?
+## Leela Ratio: What is it?
 
 If you spend any amount of time around the Leela forums and chats, you'll see an announcement about a gauntlet or match
 where IDXXX has defeated some vaunted engine. Maybe there'll be a note about the time control and the GPU or the number of
