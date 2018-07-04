@@ -3,7 +3,6 @@ layout: post
 title: More Leela Vids
 author: Dietrich Kappe
 date: 2018-07-04-21:00
-draft: true
 tags: games vids
 ---
 ## More Leela Vids
