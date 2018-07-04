@@ -5,6 +5,8 @@ title: The Leela Ratio
 date: 2018-07-04-23:00
 ---
 
+![img](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/D7F9F98E-6367-4821-BBB7-E0E7894D0323.jpeg)
+
 ## Leela Ratio: What is it?
 
 If you spend any amount of time around the Leela forums and chats, you'll see an announcement about a gauntlet or match
