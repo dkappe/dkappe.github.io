@@ -18,7 +18,7 @@ Enter the Leela Ratio: LeR = 875 * leela nps/sf9 nps
 <!--more-->
 
 This is supposed to be one number that encapsulates how powerful the CPU is versus the GPU. Its derived from the reported ratio between
-Alpha Zero's and Stockfish 8's nodes per second -- 80k and 70m. So Stockfish 8 was searching 875 times as many nps as A0. Plugging those
+Alpha Zero's and Stockfish 8's nodes per second -- 80k and 70m -- during their match. So Stockfish 8 was searching 875 times as many nps as A0. Plugging those
 figures into the formula you get 1.0. Anything higher than that, and the GPU is stronger, less than 1.0, and the CPU is
 stronger.
 
