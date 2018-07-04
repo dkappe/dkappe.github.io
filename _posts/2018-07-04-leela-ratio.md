@@ -9,7 +9,7 @@ date: 2018-07-04-23:00
 
 If you spend any amount of time around the Leela forums and chats, you'll see an announcement about a gauntlet or match
 where IDXXX has defeated some vaunted engine. Maybe there'll be a note about the time control and the GPU or the number of
-cores the opponent used. But you are often left watching your head as to how strong or weak Leela was relative to their opponent.
+cores the opponent used. But you are often left scratching your head as to how strong or weak Leela was relative to their opponent.
 
 Enter the Leela Ratio: LeR = 875 * leela nps/sf9 nps
 
