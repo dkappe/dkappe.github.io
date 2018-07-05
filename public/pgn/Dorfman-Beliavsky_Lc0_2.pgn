@@ -10,37 +10,7 @@
 [PlyCount "1"]
 [SourceVersionDate "2018.03.19"]
 
-{Lc0 is an AI which has been criticized for being a poor endgame player. Here
-is a position from an actual game, from which we will look at several
-different analyses. This position is an interesting one from which to evaluate
-Lc0, since the position is an extremely deep and subtle ending that
-traditional engines have trouble with for several reasons. First, we can note
-that there are too many pieces on the board initially for current tablebases
-to provide a clear answer, though as we progress into the variations,
-tablebase hits will occur and provide us with clarity. The other reasons are
-all synergystic with one another: material stands at a significant imbalance
-in the traditional point count, it is not a highly tactical position with only
-one major piece for each side and no minor pieces, the pawn structure is
-relatively locked (white will not be keen to push the f-pawn), and in fact,
-white does in some variations threaten to set up a surprising, but known,
-theoretical fortress (for example, if both pairs of the g- and h-pawns are
-exchanged, and the f-pawn remains on f2, this is impenetrable). We know that
-SF 8 and 9 are currently absolutely stronger than Lc0, though these
-traditional engines are relatively weak positionally (compared to their
-tactical strength) and Lc0 is known to be strong positionally (relative to its
-tactical strength). All of the factors in the present position make it a
-fertile ground for Lc0 to attempt to prove that it is not bad in "endgames"
-per se. Here we will, at various positions, present analysis from up to 6
-different sources (though not all of them for all positions): 1) Dvoretsky's
-Endgame Manual by Mark Dvoretsky, from which I was introduced to this position
-in my studies, and I reference it here, where it should be noted that
-Dvoretsky introduces this position by mentioning that "V. Khenkin supplied a
-detailed analysis for this ending."; 2) Stockfish 8; 3) Stockfish 9; 4)
-Stockfish 9 with 6-man Syzygy Tablebases; 5) Lc0 449, searching an appropriate
-fraction of the nodes of the Stockfish engines; 6) myself, as I offer that my
-chosen truncation of the analysis for certain positions is relevant, even with
-SF9 connected to tablebases, based on how complex this position actually is.} {
-"Where does the rook belong, on e3 or f4? It turns out that both squares are
+{"Where does the rook belong, on e3 or f4? It turns out that both squares are
 good when the black king is on d5; but the rook should stand on f4 (to protect
 g4) while the black king remains on the kingside." -DEM} 56. Ra3 $2 {"In the
 actual game, I. Dorfman undertook a premature transfer to e3."-DEM} ({"A draw
