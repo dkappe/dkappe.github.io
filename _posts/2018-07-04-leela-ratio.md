@@ -25,6 +25,7 @@ stronger.
 How does one get the nps for Leela and Stockfish 9 (most people have 9 instead of 8)?
 
 ### Leela NPS
+If you want to give SF more threads before "go infinite" :
 
 Quoting from the lc0 benchmark wiki page.
 
@@ -37,3 +38,14 @@ Fire up the sf9 engine, “go infinite” from the start position, and around de
 As an example, on my laptop with a GTX 1070 and 1 core for sf9, I get around 10,000 nps with a 192x15 net and 1,410,000 nps for sf9. Plugging that into our equation, we get LeR = 6.2, so a bit in favor of the GPU.
 
 Hope this helps and happy engine matches!
+
+### PS
+
+From reader Alan Williams:
+
+If you want to give SF more threads before "go infinite":
+
+```
+setoption name Threads value 4
+```
+
