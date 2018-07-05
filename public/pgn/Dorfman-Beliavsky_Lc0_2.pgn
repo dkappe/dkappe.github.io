@@ -32,7 +32,7 @@ of these very highly. SF 8 seems to like both of these moves by 90M nodes,
 though it doesn't really distinguish them as a win in its evaluation or from 2
 other moves that draw.}) 60. Rf3 Qc1+ $1 {[#] Lc0 highly prefers this only move
 right from the start, whereas SF 8 requires about 33M nodes to slightly prefer
-it over other moves.} 61. Kh2 Kd4 $1 {only move. at 16M nodes, SF 8 prefers
+it over other moves.} 61. Kh2 Kd4 $1 {[#] only move. at 16M nodes, SF 8 prefers
 this move very slightly over other evaluations, at -4.41 or so, unfortunately
 Lc0 doesn't seem to get this move, as it's 10th on its preference list} 62. Re3
 Qf1 $1 {both Lc0 and SF 8 tend to prefer this only move immedately. whereas
