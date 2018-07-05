@@ -23,14 +23,14 @@ not mentioned in DEM}) 57... Qe4+ 58. Kg1 Qc6 59. Rf4 $1 {emphasis that this
 is an only move is mine. initially and at 400 nodes, Lc0 correctly concludes
 that this is the best move. at 7M nodes, SF8 lists this as one of four moves,
 all with -4.12 evaluations, though it's not listed as the number 1 move.} (59.
-Rf7 $2 {this is an error with the different position of the queen, which is
+Rf7 $2 {[#] this is an error with the different position of the queen, which is
 also not mentioned by DEM and is the main variation we will be looking at. At
 34M nodes, SF8 lists this incorrect move as the top move, though it's tied,
 along with 2 other moves, in evaluation with the correct Rf4.} Qc4 (59... Qc1+
 {is the only other move that also wins. unfortunately Lc0 doesn't rate either
 of these very highly. SF 8 seems to like both of these moves by 90M nodes,
 though it doesn't really distinguish them as a win in its evaluation or from 2
-other moves that draw.}) 60. Rf3 Qc1+ $1 {Lc0 highly prefers this only move
+other moves that draw.}) 60. Rf3 Qc1+ $1 {[#] Lc0 highly prefers this only move
 right from the start, whereas SF 8 requires about 33M nodes to slightly prefer
 it over other moves.} 61. Kh2 Kd4 $1 {only move. at 16M nodes, SF 8 prefers
 this move very slightly over other evaluations, at -4.41 or so, unfortunately
