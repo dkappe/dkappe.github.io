@@ -57,7 +57,7 @@ keeping the rook on f4, and black exploits this with a series of only moves to
 head to the kingside. SF 8 shows no preference for any given move after 100M
 nodes. Lc0 interestingly prefers this move between 97 and 136 nodes, though
 after that and up to over 4000 nodes, it has a strong preference for ...Ke1}
-69. Ra3+ Ke4 $1 {with almost 200M nodes, SF 8 has no preference for any given
+69. Ra3+ Ke4 $1 {[#] with almost 200M nodes, SF 8 has no preference for any given
 move. Lc0 says this is absolutely the best here at under 1000 nodes!} 70. Re3+
 Kf5 $1 {SF 8 shows a slight preference for this move within 5-10M nodes. Lc0
 shows an extremely strong preference for this move at under 1000 nodes!} 71.
