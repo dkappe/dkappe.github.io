@@ -27,7 +27,7 @@ CI work continues; not complete, but a lot better than it was 2 weeks ago, mostl
 ### What's stopping us from rolling out lc0 to main net?
 
 - The network compression is possibly the single most important outstanding
-thing. There are attempts to reduce precision to fp16 (worked good), and int8
+thing. There are attempts to reduce precision to fp16 (worked well), and int8
 (didn't work well so far, ~150 Elo drop on same nodes).
 - Merging both of @Cyanogenoid's training PRs.
 - We'd like to see cpuct 1.7 or 1.8, and perhaps resign-playthru set to 20% instead of 10%.
