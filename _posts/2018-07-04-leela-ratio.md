@@ -25,7 +25,6 @@ stronger.
 How does one get the nps for Leela and Stockfish 9 (most people have 9 instead of 8)?
 
 ### Leela NPS
-If you want to give SF more threads before "go infinite" :
 
 Quoting from the lc0 benchmark wiki page.
 
