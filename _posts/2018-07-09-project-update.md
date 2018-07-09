@@ -10,11 +10,22 @@ date: 2018-07-09-00:30
 
 ## Project Update
 
+### Continuous Integration
+
+Currently we have the following CI services enabled: 
+- [CirecleCI](https://circleci.com/gh/LeelaChessZero/lc0) for linux and mac
+- [Appveyor](https://ci.appveyor.com/project/LeelaChessZero/lc0) for windows
+
+CI work continues; not complete, but a lot better than it was 2 weeks ago, mostly thanks to @fersbery and @borg; hopefully that will be even more complete by promo.
+
+### Various Fixes
+
 1. There was mutex contention optimization in lc0, which improved multithread performance.
-2.  there is Edge-Node separation on the way which will reduce memory need at least 2x, but probably more like 3-4x.
-3. Also mistake in Blas backend was fixed, it returned slightly incorrect results from NN.
-4. What's stopping us from rolling out lc0 to main net?
-- CI work continues; not complete, but a lot better than it was 2 weeks ago, mostly thanks to @fersbery and @borg; hopefully that will be even more complete by promo. (lc0-client CI??)
+2.  Edge-Node separation is on the way which will reduce memory need at least 2x, but probably more like 3-4x.
+3. A mistake in Blas backend was fixed, it returned slightly incorrect results from NN.
+
+### What's stopping us from rolling out lc0 to main net?
+
 - The network compression is possibly the single most important outstanding
 thing. There are attempts to reduce precision to fp16 (worked good), and int8
 (didn't work well so far, ~150 Elo drop on same nodes).
