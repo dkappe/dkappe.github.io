@@ -3,7 +3,6 @@ layout: post
 title: Project Update
 author: Leela Chess Team
 tag: update
-draft: true
 date: 2018-07-09-00:30
 ---
 ![logo](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/logo.png)
@@ -17,6 +16,8 @@ Continuous integration will enable us to build and test software as new code is 
 Currently we have the following CI services enabled: 
 - [CirecleCI](https://circleci.com/gh/LeelaChessZero/lc0) for linux and mac
 - [Appveyor](https://ci.appveyor.com/project/LeelaChessZero/lc0) for windows
+
+<!--more-->
 
 CI work continues; not complete, but a lot better than it was 2 weeks ago, mostly thanks to @fersbery and @borg; hopefully that will be even more complete by promo.
 
