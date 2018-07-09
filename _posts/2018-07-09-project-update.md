@@ -12,6 +12,8 @@ date: 2018-07-09-00:30
 
 ### Continuous Integration
 
+Continuous integration will enable us to build and test software as new code is checked in. It will also allow the latest builds to be available to the public.
+
 Currently we have the following CI services enabled: 
 - [CirecleCI](https://circleci.com/gh/LeelaChessZero/lc0) for linux and mac
 - [Appveyor](https://ci.appveyor.com/project/LeelaChessZero/lc0) for windows
