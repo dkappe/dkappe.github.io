@@ -1,11 +1,11 @@
-——
+---
 draft: true
 title: Project Update
 author: Leela Chess Team
 layout: post
 tag: announcement update
 date: 2018-07-17-23:55
-—-
+---
 ![logo](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/logo.png)
 
 ## Project Update
