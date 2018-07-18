@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Project Update
 author: Leela Chess Team
 layout: post
