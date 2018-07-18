@@ -12,7 +12,7 @@ date: 2018-07-17-23:55
 
 There’s a fair amount going on with the project, but we’re just going to focus on those things that are critical path to the lc0 rollout to main.
 
-<!—more—>
+<!--more-->
 
 1. We’re very close to having efficient storage of the enormous 256x20 nets. Error323 is finishing up 16 bit floating point plus protobuf storage. Protobuf (protocol buffer) is a utility library from google. You can read more about it [here](https://developers.google.com/protocol-buffers/).
 2. The various programs are now being built and tested automatically when the source code is modified. That’s a huge time saver. That’s what’s known in the biz as Continuous Integration (CI).
