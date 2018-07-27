@@ -4,7 +4,6 @@ author: Leela Chess Team
 layout: post
 tag: update
 date: 2018-07-27-12:10
-draft: true
 ---
 ![leela](https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/lc0-logo-1-black-red.png)
 
