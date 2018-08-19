@@ -8,14 +8,14 @@ permalink:           pretty
 title:               "Leela Chess and Non Zero"
 tagline:             'Chess and neural networks'
 description:         'Blog about Leela Chess Zero and Other Things.'
-url:                 https://lczero.dkappe.com
-baseurl:             'https://lczero.dkappe.com'
+url:                 https://lczero.libertymedia.io
+baseurl:             'https://lczero.libertymedia.io'
 paginate:            10
 
 # About/contact
 author:
   name:              Dietrich Kappe
-  url:               https://lczero.dkappe.com
+  url:               https://lczero.libertymedia.io
 github:
   repo:              https://github.com/dkappe/leela-chess-weights
 rss:
