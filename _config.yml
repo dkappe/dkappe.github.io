@@ -5,19 +5,19 @@ permalink:           pretty
 #relative_permalinks: true
 
 # Setup
-title:               "Leela Chess Zero"
-tagline:             'Chess learned from scratch'
-description:         'Official blog of the Leela Chess Zero project.'
-url:                 https://blog.lczero.org
-baseurl:             'https://blog.lczero.org'
+title:               "Leela Chess and Non Zero"
+tagline:             'Chess and neural networks'
+description:         'Blog about Leela Chess Zero and Other Things.'
+url:                 https://lczero.dkappe.com
+baseurl:             'https://lczero.dkappe.com'
 paginate:            10
 
 # About/contact
 author:
-  name:              Leela Chess Team
-  url:               https://twitter.com/leelachesszero
+  name:              Dietrich Kappe
+  url:               https://lczero.dkappe.com
 github:
-  repo:              https://github.com/LeelaChessZero
+  repo:              https://github.com/dkappe/leela-chess-weights
 rss:
   image:             https://raw.githubusercontent.com/dkappe/dkappe.github.io/master/public/images/72BD29AF-BBDE-484E-981A-204005D35506.png
   url:               /atom.xml
