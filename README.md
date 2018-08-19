@@ -1,1 +1,1 @@
-Official Leela Chess Zero blog
+A blog about Leela Chess Zero and other topics.
