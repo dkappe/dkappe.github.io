@@ -99,3 +99,504 @@
 35. Qb2 {+14.66} Re7 {+26.42} 36. Nxf8 {+24.57} Kxf8 {+319.69} 
 37. Rxb7 {+319.76} g4 {+319.69} 38. Rc8+ {+319.74} Kf7 {+319.73} 
 39. Rcc7 {+319.72} Rxc7 {+319.79} 40. Rxc7+ {+319.80} (-- {WhiteAveError=0.83, BlackAveError=0.79, ratingDiff=9}) 1-0
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.22"]
+[Round "3.1"]
+[White "Irina Krush"]
+[Black "Jennifer R Yu"]
+[Result "0-1"]
+[EventDate "2019.03.20"]
+[ECO "B13"]
+[WhiteElo "2451"]
+[BlackElo "2273"]
+[PlyCount "80"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. c4 c6 2. e4 d5 
+3. exd5 cxd5 4. d4 Nf6 
+5. Nc3 Nc6 6. Bg5 Be6 
+7. a3 Qd7 8. Be2 $0 {+0.49} Rd8 $0 {+0.64} 
+9. Bxf6 $0 {+0.56} exf6 $0 {+0.66} 
+10. c5 $0 {+0.58} 10... g6 $0 {+0.74} ({Lc0 v0.21.1 - Better is} 10...h5 11. b4 g6 12. Nf3 Bh6 {+0.58}) 
+11. Nf3 $2 {+0.14} ({Lc0 v0.21.1 - Better is} 11. b4 Bh6 12. b5 Na5 13. Qa4 {+0.75}) 11... h5 $6 {+0.54} ({Lc0 v0.21.1 - Better is} 11...Bh6 12. b4 Bf4 13. b5 Na5 {+0.14}) 
+12. b4 $0 {+0.47} Bh6 $0 {+0.56} 
+13. b5 $0 {+0.49} Ne7 $0 {+0.55} 
+14. h4 $2 {-0.03} ({Lc0 v0.21.1 - Better is} 14. a4 Bf4 15. a5 Kf8 16. O-O {+0.55}) 14... Kf8 $0 {+0.06} ({Lc0 v0.21.1 - Also playable is} 14...Bf4 15. a4 Kf8 16. a5 Bg4 {-0.07}) 
+15. a4 $0 {-0.01} 15... Kg7 $6 {+0.30} ({Lc0 v0.21.1 - Better is} 15...Bg4 16. O-O Nf5 17. a5 Kg7 {-0.01}) 
+16. a5 $6 {-0.28} ({Lc0 v0.21.1 - Better is} 16. O-O Bf4 17. Re1 Bg4 18. g3 {+0.30}) 16... Nc8 $2 {+1.27} ({Lc0 v0.21.1 - Excellent is} 16...Bg4 17. O-O Rhe8 18. a6 Nf5 {-0.28}) 
+17. b6 $0 {+1.20} ({Lc0 v0.21.1 - Also playable is} 17. O-O Ne7 18. Re1 Rhe8 19. Nh2 {+1.27}) 17... a6 $4 {+1.72} ({Lc0 v0.21.1 - Better is} 17...Ne7 18. Bb5 Qc8 19. bxa7 Nc6 {+1.20}) 
+18. Na2 $2 {+0.82} ({Lc0 v0.21.1 - Excellent is} 18. Qa4 Qxa4 19. Rxa4 Ne7 20. O-O {+1.72}) Ne7 $0 {+0.88} 
+19. Nb4 $0 {+0.78} 19... Qc8 $4 {+2.02} ({Lc0 v0.21.1 - Excellent is} 19...Bg4 20. O-O Rhe8 21. Re1 Nc6 {+0.80}) 
+20. Ra3 $2 {+0.76} ({Lc0 v0.21.1 - Excellent is} 20. O-O Rhe8 21. Re1 Bg4 22. Nh2 {+2.02}) 20... Rde8 $2 {+1.49} ({Lc0 v0.21.1 - Better is} 20...Rhe8 21. O-O Bg4 22. Re1 Nc6 {+0.76}) 
+21. Rc3 $2 {+0.65} ({Lc0 v0.21.1 - Excellent is} 21. O-O Nc6 22. Nxc6 Qxc6 23. Ne1 {+1.54}) 21... Bd7 $4 {+2.21} ({Lc0 v0.21.1 - Excellent is} 21...Nc6 22. Nxc6 Qxc6 23. O-O Bg4 {+0.58}) 
+22. O-O $0 {+1.91} 22... Bc6 $0 {+3.72} ({Lc0 v0.21.1 - Excellent is} 22...Bg4 23. Re1 Qd7 24. Bf1 Nc6 {+1.91}) 
+23. Ne1 $2 {+2.45} ({Lc0 v0.21.1 - Excellent is} 23. Re1 Qd7 24. Ra3 Qc8 25. Bf1 {+3.70}) Nf5 $0 {+2.68} 
+24. Nxc6 $2 {+1.82} ({Lc0 v0.21.1 - Excellent is} 24. Nf3 Re4 25. Bd3 Rd8 26. Re1 {+2.67}) Qxc6 $0 {+1.95} 
+25. Nc2 $0 {+1.73} ({Lc0 v0.21.1 - Also playable is} 25. Nf3 Ne7 26. Bd3 Qd7 27. Bc2 {+1.88}) Nxh4 $0 {+1.96} 
+26. Nb4 $0 {+1.73} Qe6 $0 {+1.82} 
+27. Bd3 $0 {+1.80} Bf4 $0 {+1.87} 
+28. c6 $6 {-0.20} ({Lc0 v0.21.1 - Excellent is} 28. Bc2 Bb8 29. Re3 Qc8 30. Rh3 {+1.87}) Bd6 $0 {-0.08} 
+29. Rc5 $2 {-0.96} ({Lc0 v0.21.1 - Excellent is} 29. Nc2 bxc6 30. Rxc6 Bh2+ 31. Kxh2 {-0.08}) Bxc5 $0 {-0.76} 
+30. dxc5 $0 {-0.78} bxc6 $5 {-0.75} 
+31. Nxa6 $0 {-1.15} Qe5 $5 {-1.17} 
+32. Nc7 $1 {-0.09} ({Stockfish 10 64 BMI2 - Also playable is} 32. b7 Qg5 33. g3 d4 34. b8=Q {-1.11}) Re7 $0 {-2.90} 
+33. Qa4 {-8.09} Qg5 $0 {-6.60} 
+34. g3 $0 {-6.95} Nf3+ $0 {-6.97} 
+35. Kg2 {-7.33} Ne1+ {-7.87} 36. Rxe1 {-7.35} Rxe1 {-7.24} 
+37. Qf4 {-7.73} Qg4 {-8.96} 38. f3 {-23.03} Qd7 {-8.91} 
+39. a6 {-12.18} Qe7 {-14.65} 40. Qd2 {-32.71} Ra1 {-11.17} 
+(-- {WhiteAveError=0.71, BlackAveError=0.99, ratingDiff=65}) 0-1
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.23"]
+[Round "4.1"]
+[White "Jennifer R Yu"]
+[Black "Emily Nguyen"]
+[Result "1-0"]
+[EventDate "2019.03.20"]
+[ECO "C50"]
+[WhiteElo "2273"]
+[BlackElo "2143"]
+[PlyCount "63"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. e4 e5 2. Bc4 Nf6 
+3. d3 Nc6 4. Nf3 Bc5 
+5. O-O d6 6. c3 O-O 
+7. Bg5 Be6 8. Nbd2 $0 {+0.45} a5 $0 {+0.56} 
+9. a4 $0 {+0.33} ({Lc0 v0.21.1 - Better is} 9. a3 h6 10. Bh4 g5 11. Bg3 {+0.56}) 9... Re8 $0 {+0.71} ({Lc0 v0.21.1 - Better is} 9...h6 10. Bh4 Ba7 11. Re1 g5 {+0.33}) 
+10. Re1 $0 {+0.65} ({Lc0 v0.21.1 - Also playable is} 10. Qb3 Rb8 11. Bxe6 Rxe6 12. Nc4 {+0.71}) d5 {+10.32} 11. Bxf6 {+9.82} gxf6 {+10.47} 
+12. exd5 {+9.81} Bxd5 {+10.96} 13. Bxd5 {+10.11} Qxd5 {+10.77} 
+14. Ne4 {+9.80} Be7 {+10.82} 15. Nh4 {+9.60} Qe6 {+10.62} 
+16. Qh5 {+9.30} Bf8 {+10.40} 17. Nf5 {+8.62} Ne7 {+10.06} 
+18. Nxe7+ $0 {+2.94} Bxe7 $0 {+3.12} 
+19. Ng3 $5 {+3.12} 19... Kh8 $0 {+3.37} ({Stockfish 10 64 BMI2 - Also playable is} 19...f5 20. Nxf5 Qg6 21. Qf3 Bg5 {+3.22}) 
+20. Re4 $0 {+3.38} f5 $0 {+3.78} 
+21. Nxf5 $0 {+3.33} Qg6 $0 {+3.63} 
+22. Qxg6 $2 {+2.70} ({Stockfish 10 64 BMI2 - Excellent is} 22. Qf3 Bf8 {+3.77}) hxg6 $0 {+2.95} 
+23. Nxe7 $2 {+2.39} ({Stockfish 10 64 BMI2 - Better is} 23. Rxe5 Ba3 24. Rxe8+ Rxe8 25. bxa3 {+2.98}) Rxe7 $0 {+2.56} 
+24. d4 $0 {+2.41} 24... Rd8 $0 {+2.84} ({Stockfish 10 64 BMI2 - Better is} 24...Re6 25. dxe5 Rd8 26. Rae1 Rb6 {+2.29}) 
+25. f4 $0 {+2.06} ({Stockfish 10 64 BMI2 - Better is} 25. Rae1 c5 {+2.48}) 25... f6 $0 {+3.27} ({Stockfish 10 64 BMI2 - Excellent is} 25...c5 {+2.04}) 
+26. fxe5 $0 {+3.12} ({Stockfish 10 64 BMI2 - Better is} 26. Rae1 {+3.30}) 26... fxe5 $0 {+3.48} ({Stockfish 10 64 BMI2 - Better is} 26...f5 27. Ree1 Kg7 28. Rad1 c6 {+3.08}) 
+27. Rae1 $0 {+3.19} c5 $0 {+3.46} 
+28. Rxe5 $1 {+4.97} ({Stockfish 10 64 BMI2 - Also playable is} 28. dxc5 Rd5 29. b4 Kg7 30. Rc4 {+3.50}) Rxe5 $0 {+5.29} 
+29. dxe5 $0 {+5.13} Kg7 {+9.76} 30. e6 {+9.25} Kf6 {+9.75} 
+31. e7 {+9.05} Re8 {+9.48} 32. Kf2 {+10.04} (-- {WhiteAveError=0.16, BlackAveError=0.58, ratingDiff=98}) 1-0
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.24"]
+[Round "5.1"]
+[White "Annie Wang"]
+[Black "Jennifer R Yu"]
+[Result "1/2-1/2"]
+[EventDate "2019.03.20"]
+[ECO "D17"]
+[WhiteElo "2304"]
+[BlackElo "2273"]
+[PlyCount "97"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. d4 d5 2. c4 c6 
+3. Nc3 Nf6 4. Nf3 dxc4 
+5. a4 Bf5 6. Ne5 Nbd7 
+7. Nxc4 Qc7 8. g3 $0 {+0.70} e5 $0 {+0.77} 
+9. dxe5 $0 {+0.71} Nxe5 $0 {+0.80} 
+10. Bf4 $0 {+0.72} Nfd7 $0 {+0.83} 
+11. Bg2 $0 {+0.71} 11... f6 $2 {+0.79} ({Lc0 v0.21.1 - Also playable is} 11...g5 12. Ne3 gxf4 13. Nxf5 O-O-O {+0.71}) 
+12. O-O $0 {+0.73} 12... Rd8 $2 {+1.22} ({Lc0 v0.21.1 - Better is} 12...O-O-O 13. Ne4 Bxe4 14. Bxe4 g5 {+0.73}) 
+13. Qc1 $0 {+1.13} Be6 $0 {+1.18} 
+14. Nxe5 $0 {+0.80} ({Lc0 v0.21.1 - Better is} 14. Ne4 Bb4 15. a5 O-O 16. b3 {+1.18}) Nxe5 $0 {+0.86} 
+15. Qe3 $0 {+0.41} ({Lc0 v0.21.1 - Better is} 15. Ne4 a5 16. Nc5 Bc8 17. Qc3 {+0.89}) 15... Qa5 $4 {+1.97} ({Lc0 v0.21.1 - Excellent is} 15...Qb6 16. Qxb6 axb6 17. a5 bxa5 {+0.41}) 
+16. Bxe5 $0 {+1.87} fxe5 $0 {+2.01} 
+17. Qg5 $0 {+1.83} 17... Qc7 $0 {+4.06} ({Lc0 v0.21.1 - Excellent is} 17...h6 18. Qg6+ Bf7 19. Qg4 h5 {+1.83}) 
+18. Ne4 $2 {+1.05} ({Lc0 v0.21.1 - Excellent is} 18. Rad1 Rd4 19. Rxd4 exd4 20. Ne4 {+4.06}) 18... Bb4 $0 {+1.18} ({Lc0 v0.21.1 - Better is} 18...h6 19. Qe3 Rd4 20. Rad1 Qd8 {+0.98}) 
+19. Qh5+ $0 {+0.76} ({Lc0 v0.21.1 - Better is} 19. Qe3 Qa5 20. Rfd1 h6 21. Qf3 {+1.18}) 19... Bf7 $4 {+1.57} ({Lc0 v0.21.1 - Excellent is} 19...g6 20. Qh6 Qe7 21. Rfd1 Bf5 {+0.75}) 
+20. Qg4 $0 {+1.49} 20... Bb3 $4 {+1.83} ({Lc0 v0.21.1 - Better is} 20...Bg6 21. Rad1 Qe7 22. Ng5 O-O {+1.49}) 
+21. Qf5 $2 {-0.12} ({Lc0 v0.21.1 - Excellent is} 21. Nf6+ gxf6 22. Qxb4 Be6 23. Rfd1 {+1.81}) 21... Bf7 $2 {+1.39} ({Lc0 v0.21.1 - Excellent is} 21...Qe7 22. a5 a6 23. Ng5 g6 {-0.12}) 
+22. Rad1 $0 {+1.30} ({Lc0 v0.21.1 - Better is} 22. Qg4 Bg6 23. Rad1 O-O 24. Ng5 {+1.49}) O-O $0 {+1.36} 
+23. Ng5 $0 {+1.29} 23... Bg6 $4 {+1.67} ({Lc0 v0.21.1 - Better is} 23...g6 24. Qe4 a5 25. h4 Bd2 {+1.29}) 
+24. Qg4 $0 {+1.56} Qe7 $0 {+1.60} 
+25. h4 $0 {+1.52} 25... a5 $0 {+1.80} ({Lc0 v0.21.1 - Better is} 25...h6 26. Rxd8 Rxd8 27. Ne6 Bh5 {+1.52}) 
+26. Qc4+ $2 {+1.23} ({Lc0 v0.21.1 - Better is} 26. Rxd8 Rxd8 27. Be4 Rd4 28. Qc8+ {+1.80}) Bf7 $0 {+1.26} 
+27. Qc2 $0 {+1.17} ({Lc0 v0.21.1 - Also playable is} 27. Nxf7 Qxf7 28. Qc2 g6 29. Bf3 {+1.26}) g6 $0 {+1.26} 
+28. Bh3 $2 {+0.22} ({Lc0 v0.21.1 - Excellent is} 28. Nxf7 Qxf7 29. Bf3 Kg7 30. Kg2 {+1.26}) 28... Kg7 $2 {+1.02} ({Lc0 v0.21.1 - Excellent is} 28...Bd5 29. e4 Bf7 30. Rxd8 Rxd8 {+0.22}) 
+29. Nxf7 $0 {+0.00} Qxf7 $0 {+0.33} 
+{, with the idea of Rd5} 30. Rd3 $3 {+0.02} 30... Qf6 $6 {+0.36} ({Stockfish 10 64 BMI2 - Better is} 30...Rd5 31. Rxd5 cxd5 32. Bg2 e4 {+0.00}) 
+31. Rxd8 $0 {+0.28} Rxd8 $0 {+0.29} 
+32. Rd1 $0 {+0.23} Rxd1+ $0 {+0.31} 
+33. Qxd1 $0 {+0.21} Qd6 $0 {+0.37} 
+34. Qxd6 $0 {+0.20} ({Stockfish 10 64 BMI2 - Also playable is} 34. Qb1 Qd5 35. e3 Qb3 36. Bc8 {+0.35}) Bxd6 $0 {+0.36} 
+35. Bc8 $0 {+0.20} ({Stockfish 10 64 BMI2 - Also playable is} 35. Kg2 e4 36. Bc8 b5 37. axb5 {+0.23}) b5 $0 {+0.25} 
+{, with the idea of bxa4} 36. axb5 $3 {+0.22} cxb5 $0 {+0.24} 
+37. Bd7 $0 {+0.00} ({Stockfish 10 64 BMI2 - Better is} 37. Kg2 a4 38. Bd7 h5 39. Bxb5 {+0.26}) b4 $0 {+0.16} 
+38. Kg2 $0 {+0.00} ({Stockfish 10 64 BMI2 - Also playable is} 38. Bc6 Bc5 39. b3 Kf6 40. Kg2 {+0.14}) 38... Kf6 $6 {+0.26} ({Stockfish 10 64 BMI2 - Better is} 38...Bc5 39. e3 e4 40. Bc6 Kf6 {+0.09}) 
+39. Kf3 $0 {+0.13} 39... Ke7 $6 {+0.41} ({Stockfish 10 64 BMI2 - Better is} 39...h5 40. Ke4 g5 41. hxg5+ Kxg5 {+0.13}) 
+40. Ba4 $0 {+0.38} ({Stockfish 10 64 BMI2 - Also playable is} 40. Bb5 h6 41. Ke4 Kf6 42. b3 {+0.42}) 40... Bc5 $0 {+0.41} ({Stockfish 10 64 BMI2 - Also playable is} 40...Kf6 41. Ke4 h6 42. Kd5 Bc7 {+0.36}) 
+41. e3 $0 {+0.26} 41... Ke6 $0 {+0.41} ({Stockfish 10 64 BMI2 - Also playable is} 41...Bb6 42. Ke4 Ke6 43. Bb5 Kf6 {+0.27}) 
+{, with the idea of Be7} 42. Ke4 $1 {+0.25} 42... Be7 $0 {+0.38} ({Stockfish 10 64 BMI2 - Also playable is} 42...Bb6 43. Bb3+ Kd6 44. Bc2 Bc7 {+0.36}) 
+43. b3 $0 {+0.33} ({Stockfish 10 64 BMI2 - Also playable is} 43. Bb5 Bd8 44. b3 Kf6 45. Be2 {+0.39}) {, with the idea of Bb5} Bd8 $1 {+0.35} 
+{, with the idea of Kf6} 44. Bb5 $3 {+0.31} 44... h6 $0 {+0.45} ({Stockfish 10 64 BMI2 - Better is} 44...Kf6 45. Kd5 Bb6 46. Bc4 Bd8 {+0.29}) 
+45. Bc4+ $0 {+0.28} ({Stockfish 10 64 BMI2 - Also playable is} 45. Be8 Kf6 46. h5 gxh5 47. Bxh5 {+0.42}) Kf6 $0 {+0.43} 
+46. Kd5 $0 {+0.29} ({Stockfish 10 64 BMI2 - Better is} 46. Bb5 g5 47. h5 Bb6 48. Be2 {+0.45}) 46... g5 $0 {+0.49} ({Stockfish 10 64 BMI2 - Better is} 46...Bc7 47. Be2 Bd8 48. Bf3 Bb6 {+0.29}) 
+47. h5 $5 {+0.42} 47... Bc7 $0 {+0.40} ({Stockfish 10 64 BMI2 - Also playable is} 47...Kf5 48. Be2 Kf6 49. g4 Bb6 {+0.35}) 
+48. Kc6 $0 {+0.28} ({Stockfish 10 64 BMI2 - Also playable is} 48. g4 Ke7 49. Kc6 Bd8 50. Bd3 {+0.33}) Bd8 $0 {+0.38} 
+49. g4 $0 {+0.29} (-- {WhiteAveError=0.51, BlackAveError=0.53, ratingDiff=5}) 1/2-1/2
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.25"]
+[Round "6.1"]
+[White "Maggie Feng"]
+[Black "Jennifer R Yu"]
+[Result "0-1"]
+[EventDate "2019.03.20"]
+[ECO "D73"]
+[WhiteElo "2199"]
+[BlackElo "2273"]
+[PlyCount "80"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. Nf3 Nf6 2. g3 g6 
+3. Bg2 Bg7 4. d4 d5 
+5. c4 c6 6. cxd5 cxd5 
+7. Nc3 O-O 8. Ne5 $0 {+0.27} 8... Nc6 $0 {+0.50} ({Lc0 v0.21.1 - Better is} 8...Bf5 9. O-O Ne4 10. Bf4 Nxc3 {+0.28}) 
+9. O-O $0 {+0.45} Bf5 $0 {+0.46} 
+10. Nxc6 $0 {+0.20} ({Lc0 v0.21.1 - Better is} 10. Be3 h5 11. Rc1 Rc8 12. Qb3 {+0.46}) bxc6 $0 {+0.26} 
+11. Na4 $0 {+0.00} ({Lc0 v0.21.1 - Better is} 11. Bf4 Nd7 12. Rc1 e5 13. dxe5 {+0.26}) Nd7 $0 {+0.04} 
+12. Bf4 $0 {-0.08} Qa5 $0 {-0.08} 
+13. b3 $1 {-0.05} ({Lc0 v0.21.1 - Also playable is} 13. Rc1 Nb6 14. b3 Nxa4 15. bxa4 {-0.08}) Rac8 $0 {+0.10} 
+14. Rc1 $0 {+0.01} ({Lc0 v0.21.1 - Also playable is} 14. Bd2 Qd8 15. Bc3 h5 16. h3 {+0.10}) 14... Rfe8 $6 {+0.25} ({Lc0 v0.21.1 - Better is} 14...Qb4 15. e3 h5 16. h3 e5 {+0.01}) 
+15. Bd2 $0 {+0.17} 15... Qb5 $0 {+0.32} ({Lc0 v0.21.1 - Also playable is} 15...Qd8 16. Bc3 h5 17. h3 e5 {+0.17}) 
+16. Bc3 $0 {+0.25} 16... e5 $0 {+0.34} ({Lc0 v0.21.1 - Also playable is} 16...h5 17. Qd2 h4 18. Rfd1 Qb8 {+0.26}) 
+17. dxe5 $0 {+0.31} Nxe5 $0 {+0.37} 
+18. h3 $0 {+0.00} ({Lc0 v0.21.1 - Better is} 18. Qd2 Rcd8 19. Rfe1 d4 20. Ba5 {+0.37}) 18... Rcd8 $0 {+0.15} ({Lc0 v0.21.1 - Also playable is} 18...h5 19. Re1 d4 20. Bxd4 Nd3 {+0.00}) 
+19. Bb2 $6 {-0.62} ({Lc0 v0.21.1 - Better is} 19. Re1 d4 20. Bd2 Bf8 21. g4 {+0.08}) 19... h5 $0 {-0.40} ({Lc0 v0.21.1 - Better is} 19...d4 20. Rc5 Qb7 21. Qd2 h5 {-0.69}) 
+20. Re1 $2 {-0.78} ({Lc0 v0.21.1 - Better is} 20. Rc5 Qa6 21. Bd4 Nd7 22. Bxg7 {-0.39}) 20... a6 $2 {-0.17} ({Lc0 v0.21.1 - Better is} 20...d4 21. Nc5 Nd7 22. Nxd7 Bxd7 {-0.78}) 
+21. Rc5 $0 {-0.52} ({Lc0 v0.21.1 - Better is} 21. f4 Nd7 22. Bxg7 Kxg7 23. e3 {-0.17}) 21... Qb7 $0 {-0.06} ({Lc0 v0.21.1 - Better is} 21...Qb8 22. Qd2 Qc8 23. Kh2 d4 {-0.39}) 
+22. Qa1 $2 {-1.04} ({Lc0 v0.21.1 - Excellent is} 22. Qc1 Qe7 23. Rd1 d4 24. Bxd4 {-0.08}) Qe7 $0 {-0.94} 
+23. Rd1 $0 {-0.98} 23... Kh7 $6 {+0.19} ({Lc0 v0.21.1 - Excellent is} 23...Qe6 24. Bxe5 Bxe5 25. Qc1 Rd6 {-1.01}) 
+24. e3 $4 {-2.76} ({Lc0 v0.21.1 - Excellent is} 24. Bd4 Qe6 25. h4 Be4 26. Rc3 {+0.15}) 24... Bh8 $2 {-0.38} ({Lc0 v0.21.1 - Excellent is} 24...Qe6 25. h4 g5 26. Bxe5 Bxe5 {-2.81}) 
+25. Bxe5 $0 {-0.47} Bxe5 $0 {-0.42} 
+26. Qc1 $0 {-0.51} 26... Bd7 $0 {-0.14} ({Lc0 v0.21.1 - Better is} 26...Kg8 27. Rxc6 d4 28. Re1 Bg7 {-0.54}) 
+27. Nb6 $4 {-5.99} ({Lc0 v0.21.1 - Excellent is} 27. Rc2 Bf5 28. Rxc6 d4 29. Re1 {-0.14}) Bb2 $0 {-5.63} 
+28. Qc2 $0 {-5.96} ({Lc0 v0.21.1 - Better is} 28. Qxb2 Qxc5 29. Na4 Qe7 30. Qc3 {-5.63}) Bf5 $0 {-5.56} 
+29. e4 {-12.00} 29... dxe4 $2 {+0.00} ({Lc0 v0.21.1 - Excellent is} 29...Bxe4 30. Bxe4 dxe4 31. Rxc6 e3 {-12.18}) 
+30. Rxd8 $0 {+0.00} 30... Rxd8 $0 {+0.08} ({asmFishL_2019-04-05_popcnt - Also playable is} 30...Qxd8 31. Qxb2 Qxb6 32. Qf6 Qa7 {+0.00}) 
+31. Rxf5 $0 {+0.00} 31... gxf5 $2 {+0.94} ({asmFishL_2019-04-05_popcnt - Excellent is} 31...Bd4 32. Rf4 Bxb6 33. Bxe4 f5 {+0.00}) 
+32. Qxb2 $0 {+0.71} 32... h4 $0 {+0.79} ({asmFishL_2019-04-05_popcnt - Also playable is} 32...e3 33. Qe2 {+0.89}) 
+33. Nc4 $0 {+0.67} {, with the idea of Ne3} Rd1+ $0 {+0.95} 
+34. Kh2 $0 {+0.76} ({asmFishL_2019-04-05_popcnt - Better is} 34. Bf1 {+1.11}) 34... Qg5 $2 {+1.34} ({asmFishL_2019-04-05_popcnt - Excellent is} 34...hxg3+ 35. fxg3 Qc5 36. h4 Qg1+ {+0.40}) 
+35. Qe5 $0 {+1.46} Rd5 $0 {+1.47} 
+{, with the idea of Rxe5} 36. Qc7 $3 {+1.31} 36... Kg7 $4 {+2.92} ({asmFishL_2019-04-05_popcnt - Excellent is} 36...hxg3+ {+1.17}) 
+37. Qxc6 $4 {-5.79} ({asmFishL_2019-04-05_popcnt - Excellent is} 37. gxh4 {+2.98}) hxg3+ $0 {-5.63} 
+38. fxg3 $0 {-5.75} f4 $0 {-5.84} 
+39. Qc7 {-319.95} Qxg3+ {-319.96} 40. Kg1 {-319.99} Rd1# 
+(-- {WhiteAveError=1.75, BlackAveError=1.35, ratingDiff=92}) 0-1
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.27"]
+[Round "7.1"]
+[White "Jennifer R Yu"]
+[Black "Sabina-Francesca Foisor"]
+[Result "1-0"]
+[EventDate "2019.03.20"]
+[ECO "A20"]
+[WhiteElo "2273"]
+[BlackElo "2276"]
+[PlyCount "143"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. c4 e5 2. e3 f5 
+3. d4 e4 4. Nc3 Nf6 
+5. Nge2 g6 6. Nf4 Bg7 
+7. h4 Nc6 8. h5 $0 {+2.86} Ne7 $0 {+2.98} 
+9. c5 $2 {+1.50} ({Lc0 v0.21.1 - Excellent is} 9. Qb3 d6 10. Bd2 c6 11. hxg6 {+3.03}) 9... g5 $4 {+3.29} ({Lc0 v0.21.1 - Excellent is} 9...d5 10. cxd6 Qxd6 11. Nb5 Qd7 {+1.48}) 
+10. h6 $0 {+3.07} 10... gxf4 $0 {+3.18} ({Lc0 v0.21.1 - Also playable is} 10...Bf8 11. Nh5 Nxh5 12. Qxh5+ Ng6 {+3.13}) 
+11. hxg7 $0 {+3.05} Rg8 $0 {+3.20} 
+12. Rxh7 $2 {+2.38} ({Lc0 v0.21.1 - Excellent is} 12. d5 d6 13. Qd4 Kf7 14. exf4 {+3.20}) 12... f3 $0 {+3.08} ({Lc0 v0.21.1 - Better is} 12...d5 13. Rh1 Rxg7 14. Bd2 Bd7 {+2.41}) 
+13. Rh6 $0 {+3.03} Ng4 $0 {+3.18} 
+14. Rh8 $0 {+3.03} fxg2 $0 {+3.20} 
+15. Bxg2 $0 {+2.99} d5 $0 {+3.12} 
+16. cxd6 $0 {+2.99} Qxd6 $0 {+2.05} 
+17. Qb3 $2 {+1.12} ({asmFishL_2019-04-05_popcnt - Better is} 17. Rxg8+ Nxg8 {+1.67}) Be6 $0 {+1.06} 
+18. Nb5 $2 {+0.00} ({asmFishL_2019-04-05_popcnt - Excellent is} 18. Rxg8+ Bxg8 19. Qxb7 Rd8 20. Qb5+ {+1.00}) Bxb3 $0 {+0.08} 
+19. Nxd6+ $0 {+0.00} cxd6 $0 {+0.08} 
+20. axb3 $0 {+0.00} 20... Kf7 $0 {+0.08} ({asmFishL_2019-04-05_popcnt - Also playable is} 20...Kd7 21. Rxg8 Rxg8 22. f3 Nf6 {+0.00}) 
+21. Bd2 $0 {-0.08} ({asmFishL_2019-04-05_popcnt - Better is} 21. Rxg8 Rxg8 22. f3 Nf6 23. Rxa7 {+0.08}) a6 $0 {+0.00} 
+22. Bb4 $6 {-0.58} ({asmFishL_2019-04-05_popcnt - Better is} 22. f3 Nf6 23. fxe4 fxe4 24. Rxg8 {+0.00}) Ke6 $0 {-0.03} 
+23. Rxg8 $6 {-0.53} ({asmFishL_2019-04-05_popcnt - Better is} 23. Rh1 {+0.00}) Rxg8 $0 {-0.31} 
+24. Bf1 $4 {-2.36} ({asmFishL_2019-04-05_popcnt - Excellent is} 24. Bc3 Nf6 25. Ke2 Rxg7 26. Bh3 {-0.25}) Rxg7 $0 {-1.54} 
+25. Rc1 $0 {-3.26} ({asmFishL_2019-04-05_popcnt - Excellent is} 25. Ke2 Nh2 {-1.79}) 25... Kd7 $2 {-1.00} ({asmFishL_2019-04-05_popcnt - Excellent is} 25...Rh7 {-3.17}) 
+26. Be2 $4 {-2.07} ({asmFishL_2019-04-05_popcnt - Excellent is} 26. Ba5 Nc6 {-1.25}) 26... Nd5 $0 {-1.54} ({asmFishL_2019-04-05_popcnt - Better is} 26...Nh2 27. Ba5 {-1.83}) 
+{, with the idea of Nxb4} 27. Ba5 $0 {-1.95} 27... Nh2 $0 {-1.84} ({asmFishL_2019-04-05_popcnt - Also playable is} 27...b5 28. Bxg4 Rxg4 29. Kd1 Rh4 {-1.89}) 
+28. Bc4 $0 {-1.96} 28... Nf6 $0 {-1.77} ({asmFishL_2019-04-05_popcnt - Better is} 28...Ne7 {-1.94}) 
+{, with the idea of Rg1+} 29. Be2 $0 {-2.30} 29... Nf3+ $2 {-0.08} ({asmFishL_2019-04-05_popcnt - Excellent is} 29...Ke6 {-2.20}) 
+30. Bxf3 $0 {-0.08} Rg1+ $0 {+0.00} 
+31. Kd2 $0 {-0.16} Rxc1 $0 {+0.00} 
+32. Bxe4 $0 {-0.17} 32... Ra1 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 32...Nxe4+ 33. Kxc1 Nxf2 34. Kd2 Ne4+ {-0.15}) 
+33. Bxf5+ $0 {+0.00} Ke7 $0 {+0.00} 
+{, with the idea of Rxa5} 34. Bc3 $1 {+0.00} 34... a5 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 34...Nd5 35. Be4 Nxc3 36. bxc3 b6 {+0.00}) 
+35. e4 $0 {+0.00} 35... d5 $0 {+0.08} ({asmFishL_2019-04-05_popcnt - Also playable is} 35...b5 36. Kd3 Nh5 37. e5 Ng7 {+0.00}) 
+36. f3 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 36. e5 Nh5 37. b4 Ng7 38. Bc8 {+0.08}) 36... b5 $0 {+0.15} ({asmFishL_2019-04-05_popcnt - Also playable is} 36...Ne8 37. Kd3 Nd6 38. Bg4 Nb5 {+0.00}) 
+37. b4 $0 {+0.00} a4 $0 {+0.54} 
+38. Kd3 $0 {-0.08} ({asmFishL_2019-04-05_popcnt - Better is} 38. e5 Nd7 39. Bd3 Nb6 40. Bxb5 {+0.15}) 38... Ne8 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 38...Nh5 39. e5 Nf4+ 40. Ke3 a3 {+0.00}) 
+39. e5 $5 {+0.00} Ng7 $0 {+0.00} 
+40. Bg4 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 40. Bc8 Ne6 41. Ba6 Nc7 42. Bc8 {+0.00}) Ne6 $0 {+0.00} 
+41. Bf5 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 41. Kc2 a3 42. bxa3 Rxa3 43. Bb2 {+0.00}) 41... Rh1 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 41...Nf4+ 42. Ke3 {+0.00}) 
+42. Ke3 $5 {+0.00} 42... Rh2 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 42...Rc1 43. Kd2 Rh1 44. Bd3 Nc7 {+0.00}) 
+43. Bd3 $0 {+0.00} Nc7 $0 {+0.00} 
+44. f4 $0 {+0.00} Rh3+ $0 {+0.00} 
+45. Kd2 $0 {+0.00} Rh2+ $0 {+0.00} 
+46. Ke3 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 46. Kc1 Rh3 47. Kd2 Rh2+ {+0.00}) Rh3+ $0 {+0.00} 
+47. Kd2 $0 {+0.00} 47... Ke6 $0 {+0.04} ({asmFishL_2019-04-05_popcnt - Also playable is} 47...Rh2+ 48. Ke3 Rh3+ 49. Kd2 {+0.00}) 
+48. f5+ $5 {+0.07} 48... Kd7 $2 {+0.77} ({asmFishL_2019-04-05_popcnt - Better is} 48...Ke7 49. Kc2 {+0.15}) 
+49. Ke2 $0 {+0.15} ({asmFishL_2019-04-05_popcnt - Better is} 49. Kc2 Rh2+ {+0.45}) 49... Kc6 $2 {+1.13} ({asmFishL_2019-04-05_popcnt - Better is} 49...Rh2+ {+0.39}) 
+{, with the idea of Rh2+} 50. Bd2 $3 {+0.94} Rh2+ $0 {+1.16} 
+51. Kd1 $5 {+0.93} 51... Rh4 $4 {+1.73} ({asmFishL_2019-04-05_popcnt - Better is} 51...Rf2 52. Kc1 Rf3 53. Kc2 Ne8 {+0.99}) 
+52. Be3 $0 {+1.47} 52... Kd7 $0 {+1.96} ({asmFishL_2019-04-05_popcnt - Better is} 52...Rh1+ 53. Ke2 {+1.58}) 
+53. Kc2 $2 {+0.57} ({asmFishL_2019-04-05_popcnt - Excellent is} 53. Be2 Kc6 54. Kd2 Re4 55. Bd3 {+1.95}) 53... Rg4 $4 {+1.81} ({asmFishL_2019-04-05_popcnt - Excellent is} 53...Rh2+ 54. Kc3 Rh5 55. Bf4 Ke7 {+0.66}) 
+54. Be2 $5 {+1.62} 54... Rg2 $0 {+1.83} ({asmFishL_2019-04-05_popcnt - Also playable is} 54...Rg8 {+1.80}) 
+{, with the idea of Rxe2+} 55. Kd1 $3 {+1.77} 55... Ke7 $0 {+2.42} ({asmFishL_2019-04-05_popcnt - Better is} 55...Kc6 {+1.76}) 
+56. Ke1 $0 {+2.24} 56... Kf7 $0 {+2.75} ({asmFishL_2019-04-05_popcnt - Better is} 56...Kf8 57. Bf4 Rg1+ 58. Kd2 Ke7 {+2.17}) 
+57. Bf4 $0 {+2.69} ({asmFishL_2019-04-05_popcnt - Better is} 57. Bh5+ {+3.18}) Rg1+ $0 {+3.15} 
+58. Kd2 $0 {+2.49} 58... Rg2 $0 {+3.07} ({asmFishL_2019-04-05_popcnt - Better is} 58...Ke7 {+2.75}) 
+59. e6+ $2 {+1.36} ({asmFishL_2019-04-05_popcnt - Excellent is} 59. Ke3 Rg1 60. Bf3 Ke7 61. Kf2 {+3.37}) Nxe6 $0 {+1.79} 
+60. fxe6+ $0 {+2.02} Kxe6 $0 {+1.07} 
+61. Ke3 $0 {+0.98} ({asmFishL_2019-04-05_popcnt - Better is} 61. Ke1 Rg1+ 62. Kd2 Rg2 63. Ke3 {+1.34}) Kf5 {+9.79} 62. Bd6 {+9.60} Ke6 {+10.82} 
+63. Bc5 {+10.33} Rg3+ {+14.77} 64. Kf4 {+14.69} Rb3 {+19.89} 
+65. Bxb5 {+61.52} Rxb2 {+132.64} 66. Bxa4 {+132.64} Rf2+ {+132.64} 
+67. Ke3 {+132.67} Rb2 {+132.70} 68. Bc6 {+132.68} Rb1 {+132.70} 
+69. b5 {+132.69} Kf5 {+132.72} 70. b6 {+132.72} Rb3+ {+132.72} 
+71. Kd2 {+132.73} Ke4 {+132.75} 72. b7 {+132.76} (-- {WhiteAveError=0.68, BlackAveError=0.47, ratingDiff=49}) 1-0
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.28"]
+[Round "8.1"]
+[White "Akshita Gorti"]
+[Black "Jennifer R Yu"]
+[Result "0-1"]
+[EventDate "2019.03.20"]
+[ECO "D03"]
+[WhiteElo "2272"]
+[BlackElo "2273"]
+[PlyCount "84"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. d4 d5 2. Bg5 Nf6 
+3. e3 g6 4. Nf3 Bg7 
+5. Nbd2 O-O 6. Bd3 Nbd7 
+7. O-O b6 8. c4 $0 {+0.00} ({Lc0 v0.21.1 - Better is} 8. c3 Bb7 9. h3 Ne4 10. Bf4 {+0.49}) 8... dxc4 $6 {+0.21} ({Lc0 v0.21.1 - Better is} 8...c5 9. cxd5 Nxd5 10. Bc4 Bb7 {+0.00}) 
+9. Bxc4 $0 {+0.12} 9... Bb7 $6 {+0.29} ({Lc0 v0.21.1 - Better is} 9...c5 10. d5 h6 11. Bh4 g5 {+0.12}) 
+10. Qe2 $0 {+0.11} ({Lc0 v0.21.1 - Better is} 10. b4 c5 11. bxc5 bxc5 12. Qb3 {+0.27}) c5 $0 {+0.18} 
+11. Rfd1 $0 {+0.12} 11... Rc8 $6 {+0.57} ({Lc0 v0.21.1 - Better is} 11...cxd4 12. Nxd4 Ne5 13. Bb3 Qe8 {+0.12}) 
+12. Rac1 $2 {-0.10} ({Lc0 v0.21.1 - Better is} 12. Nb3 cxd4 13. Nbxd4 Qc7 14. Rac1 {+0.57}) cxd4 $0 {-0.02} 
+13. Nxd4 $6 {-0.22} ({Lc0 v0.21.1 - Better is} 13. exd4 Nb8 14. Nf1 Nc6 15. Ne3 {-0.02}) 13... Rc5 $6 {+0.46} ({Lc0 v0.21.1 - Better is} 13...Ne5 14. Ba6 Qd5 15. Bxb7 Qxb7 {-0.23}) 
+14. N2f3 $0 {+0.44} Qa8 $0 {+0.47} 
+15. b4 $0 {+0.40} Rcc8 $0 {+0.57} 
+16. Bb5 $6 {-0.64} ({Lc0 v0.21.1 - Excellent is} 16. h4 Rfe8 17. a4 a6 18. b5 {+0.57}) 16... Rfd8 $2 {-0.07} ({Lc0 v0.21.1 - Better is} 16...Rxc1 17. Rxc1 Rc8 18. Rxc8+ Qxc8 {-0.64}) 
+17. Rxc8 $0 {-0.11} ({Lc0 v0.21.1 - Also playable is} 17. Bc4 h6 18. Bh4 a6 19. a4 {-0.07}) Qxc8 $0 {+0.00} 
+18. Qe1 $6 {-0.29} ({Lc0 v0.21.1 - Better is} 18. Bc4 h6 19. Bh4 Bd5 20. Bxd5 {+0.00}) 18... Nb8 $4 {+1.90} ({Lc0 v0.21.1 - Excellent is} 18...a6 19. Rc1 Qa8 20. Bc6 Rc8 {-0.29}) 
+19. h3 $2 {+0.45} ({Lc0 v0.21.1 - Excellent is} 19. Rc1 Qg4 20. Bf4 Ne8 21. a4 {+1.90}) 19... Be4 $0 {+0.74} ({Lc0 v0.21.1 - Better is} 19...Bxf3 20. Rc1 Qb7 21. Nxf3 Rc8 {+0.45}) 
+20. Ne5 $0 {+0.49} ({Lc0 v0.21.1 - Better is} 20. Bf4 Qb7 21. Ng5 Rc8 22. f3 {+0.74}) a6 $0 {+0.39} 
+21. Ba4 $0 {+0.47} ({Lc0 v0.21.1 - Also playable is} 21. Bf1 Bd5 22. a4 Ne4 23. Bf4 {+0.52}) 21... b5 $1 {+0.41} ({Lc0 v0.21.1 - Also playable is} 21...h6 22. Bf4 Qb7 23. f3 b5 {+0.47}) 
+22. Bb3 $0 {+0.33} Bd5 $0 {+0.41} 
+23. Rc1 $0 {+0.36} Qb7 $0 {+0.43} 
+24. Bxd5 $2 {-0.10} ({Lc0 v0.21.1 - Better is} 24. Qd1 Bxb3 25. Qxb3 Qd5 26. Bxf6 {+0.42}) 24... Qxd5 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Better is} 24...Nxd5 25. Nd3 {-0.31}) 
+25. Nec6 $0 {-0.08} ({asmFishL_2019-04-05_popcnt - Also playable is} 25. Nef3 Qxa2 26. e4 h6 27. Bf4 {+0.00}) Nxc6 $0 {+0.00} 
+26. Nxc6 $0 {-0.12} 26... Rd7 $0 {-0.07} ({asmFishL_2019-04-05_popcnt - Also playable is} 26...Re8 27. Bxf6 exf6 28. Qd1 Qxa2 {-0.08}) 
+27. Bf4 $6 {-0.63} ({asmFishL_2019-04-05_popcnt - Better is} 27. Ne5 Rd8 28. Nc6 Re8 29. Bxf6 {+0.00}) Qxa2 $0 {-0.34} 
+28. Nb8 $2 {-0.87} ({asmFishL_2019-04-05_popcnt - Excellent is} 28. Ra1 Qb3 29. Nb8 Rd8 30. Nc6 {+0.00}) Rd8 $0 {-0.77} 
+29. Nc6 $0 {-0.90} Re8 $0 {-0.73} 
+30. Ra1 $1 {-0.60} ({asmFishL_2019-04-05_popcnt - Also playable is} 30. e4 Qe6 31. f3 Nd7 32. Qd2 {-0.72}) 30... Qe6 $2 {+0.00} ({asmFishL_2019-04-05_popcnt - Better is} 30...Qc2 31. Rxa6 Nd5 32. Qf1 h5 {-0.63}) 
+{, with the idea of Qxc6} 31. Rxa6 $1 {-0.13} {, with the idea of Qe2} Nd5 $3 {-0.02} 
+32. Bg3 $4 {-2.00} ({asmFishL_2019-04-05_popcnt - Excellent is} 32. Qf1 Nc3 33. Qd3 h5 34. Nb8 {-0.08}) Qc8 $0 {-1.79} 
+33. Qd2 $0 {-3.45} ({asmFishL_2019-04-05_popcnt - Excellent is} 33. Nb8 Qb7 34. Ra3 Rxb8 35. Bxb8 {-1.79}) Qxa6 $0 {-3.05} 
+34. Qxd5 $0 {-3.32} 34... Bf6 $2 {-2.34} ({asmFishL_2019-04-05_popcnt - Excellent is} 34...Qb7 {-3.42}) 
+35. Be5 $0 {-3.20} ({asmFishL_2019-04-05_popcnt - Excellent is} 35. Nb8 {-2.43}) 35... Bxe5 $0 {-2.40} ({asmFishL_2019-04-05_popcnt - Better is} 35...Qb7 36. Bxf6 exf6 37. Qc5 Kg7 {-2.76}) 
+36. Nxe5 $0 {-2.56} 36... Rf8 $0 {-2.38} ({asmFishL_2019-04-05_popcnt - Better is} 36...Qe6 37. Qxb5 Rd8 38. Nc6 Rc8 {-2.56}) 
+37. h4 $0 {-2.69} ({asmFishL_2019-04-05_popcnt - Better is} 37. f4 Qa8 38. Qxb5 Qe4 39. Qd3 {-2.47}) Qd6 $0 {-2.52} 
+38. Qe4 $0 {-5.22} ({asmFishL_2019-04-05_popcnt - Excellent is} 38. Qxd6 exd6 39. Nc6 Ra8 40. Nd4 {-2.59}) Rc8 $0 {-5.17} 
+39. g3 $0 {-5.61} ({asmFishL_2019-04-05_popcnt - Better is} 39. f4 {-5.06}) Rc1+ $3 {-5.34} 
+40. Kh2 $0 {-5.55} Kg7 $0 {-5.69} 
+41. h5 $0 {-6.71} f5 $0 {-6.55} 
+42. Qf4 {-7.10} Qd1 {-7.10} (-- {WhiteAveError=0.73, BlackAveError=0.57, ratingDiff=38}) 0-1
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.29"]
+[Round "9.1"]
+[White "Jennifer R Yu"]
+[Black "Tatev Abrahamyan"]
+[Result "1/2-1/2"]
+[EventDate "2019.03.20"]
+[ECO "E46"]
+[WhiteElo "2273"]
+[BlackElo "2377"]
+[PlyCount "98"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. d4 Nf6 2. c4 e6 
+3. Nc3 Bb4 4. e3 O-O 
+5. Ne2 c6 6. a3 Ba5 
+7. c5 d5 8. cxd6 $0 {-0.03} Qxd6 $0 {+0.05} 
+9. b4 $0 {-0.05} Bc7 $0 {+0.04} 
+10. g3 $0 {-0.07} ({Lc0 v0.21.1 - Also playable is} 10. Bb2 a5 11. b5 a4 12. Ng3 {+0.03}) 10... e5 $6 {+0.49} ({Lc0 v0.21.1 - Better is} 10...a5 11. b5 cxb5 12. Bg2 Qa6 {-0.07}) 
+11. Bg2 $0 {+0.37} 11... Re8 $0 {+0.38} ({Lc0 v0.21.1 - Also playable is} 11...Bf5 12. e4 exd4 13. Qxd4 Qxd4 {+0.37}) 
+12. dxe5 $6 {-0.16} ({Lc0 v0.21.1 - Better is} 12. O-O Qe7 13. Qc2 e4 14. Bb2 {+0.38}) Qxd1+ $0 {-0.14} 
+13. Nxd1 $0 {-0.09} Bxe5 $0 {+0.17} 
+14. Bb2 $5 {-0.07} a5 $5 {+0.14} 
+15. bxa5 $6 {-0.50} ({asmFishL_2019-04-05_popcnt - Better is} 15. Bxe5 Rxe5 16. Rb1 axb4 17. axb4 {+0.00}) 15... Nbd7 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Better is} 15...Bc7 {-0.36}) 
+16. O-O $6 {-0.28} ({asmFishL_2019-04-05_popcnt - Better is} 16. Bxe5 {+0.07}) 16... Rxa5 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 16...Bc7 17. Bd4 Rxa5 18. Ndc3 Nc5 {-0.12}) 
+{, with the idea of Bb8} 17. Bxe5 $1 {+0.00} Nxe5 $0 {+0.02} 
+18. Ndc3 $0 {-0.11} ({asmFishL_2019-04-05_popcnt - Better is} 18. Nd4 {+0.15}) 18... Nd3 $0 {+0.07} ({asmFishL_2019-04-05_popcnt - Better is} 18...Bf5 19. Rfd1 Bg6 20. a4 h6 {-0.08}) 
+19. Nd4 $0 {-0.16} {, with the idea of Nb3} Nc5 $3 {+0.00} 
+20. a4 $6 {-0.25} ({asmFishL_2019-04-05_popcnt - Better is} 20. Rfb1 g6 21. a4 Ng4 22. h3 {+0.00}) 20... Be6 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Better is} 20...g6 21. Rab1 {-0.26}) 
+{, with the idea of Rea8} 21. Rab1 $3 {-0.18} 21... Rea8 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Better is} 21...g6 {-0.30}) 
+22. Rb4 $0 {-0.11} ({asmFishL_2019-04-05_popcnt - Also playable is} 22. Bf3 g6 23. Rfd1 Rd8 24. Rb4 {+0.00}) {, with the idea of Nxe6} g6 $3 {+0.00} 
+23. Rd1 $6 {-0.34} ({asmFishL_2019-04-05_popcnt - Better is} 23. Nxe6 fxe6 24. Rfb1 Rd8 25. Ne4 {+0.00}) 23... R8a7 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Better is} 23...Bd7 24. Bf3 Kg7 25. Kg2 R8a7 {-0.39}) 
+24. Ra1 $6 {-0.38} ({asmFishL_2019-04-05_popcnt - Better is} 24. Nxe6 fxe6 25. Rd8+ Kf7 26. Rc8 {+0.00}) 24... Nd5 $2 {+0.08} ({asmFishL_2019-04-05_popcnt - Better is} 24...Bd7 25. Ra2 h5 26. Ra3 Kg7 {-0.47}) 
+25. Bxd5 $0 {+0.00} Bxd5 $0 {+0.08} 
+26. Nxd5 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 26. Rab1 Kf8 27. Nxd5 cxd5 28. Nb5 {+0.08}) cxd5 $0 {+0.00} 
+27. Nb3 $2 {-0.84} ({asmFishL_2019-04-05_popcnt - Excellent is} 27. Rc1 R7a6 28. Rb5 b6 29. Nc6 {+0.00}) Nxb3 $0 {-0.47} 
+28. Rxb3 $0 {-0.77} b5 $0 {-0.53} 
+29. Rd1 $2 {-1.30} ({asmFishL_2019-04-05_popcnt - Better is} 29. Kf1 Kf8 30. Rd3 bxa4 31. Rda3 {-0.61}) bxa4 $0 {-1.00} 
+30. Ra3 $0 {-1.18} 30... Kf8 $2 {-0.47} ({asmFishL_2019-04-05_popcnt - Excellent is} 30...Rc7 {-1.28}) 
+31. Rd4 $5 {-0.73} Ke7 $0 {-0.47} 
+32. Kf1 $0 {-0.65} {, with the idea of Ke2} Kd6 $3 {-0.41} 
+{, with the idea of Kc6} 33. Ke2 $3 {-0.65} Kc5 $0 {-0.33} 
+34. Kd3 $0 {-0.59} ({asmFishL_2019-04-05_popcnt - Also playable is} 34. Kd2 R7a6 35. h4 h6 36. Rf4 {-0.47}) {, with the idea of g4} Kb5 $3 {-0.45} 
+35. Kc3 $0 {-0.57} ({asmFishL_2019-04-05_popcnt - Also playable is} 35. Rc3 Kb6 36. Ra3 Kc6 37. h4 {-0.49}) {, with the idea of Rxd5+} Rc7+ $3 {-0.47} 
+36. Kb2 $0 {-0.61} Rc5 $0 {-0.56} 
+37. Rad3 $2 {-1.07} ({asmFishL_2019-04-05_popcnt - Better is} 37. Rh4 {-0.49}) Kc6 $0 {-0.86} 
+38. Ka3 $0 {-0.95} ({asmFishL_2019-04-05_popcnt - Also playable is} 38. Rf4 {-1.05}) 38... Rc2 $0 {-0.66} ({asmFishL_2019-04-05_popcnt - Better is} 38...Rc4 39. Rxc4+ dxc4 40. Rd4 c3 {-1.00}) 
+39. Rf4 $2 {-0.94} ({asmFishL_2019-04-05_popcnt - Better is} 39. Rd2 Rxd2 40. Rxd2 Kd6 41. Rd4 {-0.55}) f5 $0 {-0.80} 
+{, with the idea of Rb5} 40. Rdd4 $0 {-0.97} 40... Rac5 $2 {+0.00} ({asmFishL_2019-04-05_popcnt - Excellent is} 40...Rc3+ 41. Kb4 Rac5 42. Kxa4 R3c4+ {-0.99}) 
+41. Rxa4 $0 {-0.25} {, with the idea of Ra7} R5c3+ $3 {+0.00} 
+42. Kb4 $0 {-0.14} 42... Rc4+ $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 42...Kd6 43. Ra7 Rd3 44. Rxh7 Rb2+ {-0.14}) 
+43. Kb3 $0 {-0.26} 43... Kb5 $0 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 43...R4c3+ 44. Kb4 Kd6 45. Ra7 Rd3 {-0.13}) 
+44. Raxc4 $0 {+0.00} Rxc4 $0 {+0.00} 
+45. Rf3 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 45. Rxc4 dxc4+ 46. Kc3 g5 47. h3 {+0.00}) 45... Kc5 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 45...Kc6 46. Rf4 Kc5 47. h3 Rxf4 {+0.00}) 
+{, with the idea of Kd6} 46. Rf4 $1 {+0.00} 46... Rxf4 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 46...h5 47. h4 d4 48. exd4+ Kd5 {+0.00}) 
+47. gxf4 $0 {+0.00} d4 $0 {+0.00} 
+48. Kc2 $0 {+0.00} Kc4 $0 {+0.00} 
+49. Kd2 $0 {+0.00} 49... h6 $5 {+0.00} ({asmFishL_2019-04-05_popcnt - Also playable is} 49...Kc5 50. Kc2 Kc4 51. Kd2 {+0.00}) 
+(-- {WhiteAveError=0.32, BlackAveError=0.30, ratingDiff=4}) 1/2-1/2
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.30"]
+[Round "10.1"]
+[White "Anna Vitalyevna Zatonskih"]
+[Black "Jennifer R Yu"]
+[Result "0-1"]
+[EventDate "2019.03.20"]
+[ECO "D17"]
+[WhiteElo "2430"]
+[BlackElo "2273"]
+[PlyCount "66"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. d4 d5 2. c4 c6 
+3. Nc3 Nf6 4. Nf3 dxc4 
+5. a4 Bf5 6. Ne5 Nbd7 
+7. Nxc4 Qc7 8. g3 $0 {+0.70} e5 $0 {+0.77} 
+9. dxe5 $0 {+0.70} Nxe5 $0 {+0.80} 
+10. Bf4 $0 {+0.71} Nfd7 $0 {+0.83} 
+11. Bg2 $0 {+0.71} 11... f6 $2 {+0.79} ({Lc0 v0.21.1 - Also playable is} 11...g5 12. Ne3 gxf4 13. Nxf5 O-O-O {+0.70}) 
+12. O-O $0 {+0.72} 12... Rd8 $0 {+1.22} ({Lc0 v0.21.1 - Better is} 12...O-O-O 13. Ne4 Bxe4 14. Bxe4 g5 {+0.79}) 
+13. Qc1 $0 {+1.13} Be6 $0 {+1.20} 
+14. Ne4 $0 {+1.07} Bb4 $0 {+1.19} 
+15. Rd1 $0 {+1.12} ({Lc0 v0.21.1 - Also playable is} 15. a5 O-O 16. a6 b6 17. b3 {+1.17}) O-O $0 {+1.16} 
+16. Rd4 $0 {+0.76} ({Lc0 v0.21.1 - Better is} 16. a5 h6 17. Qc2 Kh8 18. b3 {+1.15}) 16... a5 $0 {+0.89} ({Lc0 v0.21.1 - Also playable is} 16...Be7 17. Qc2 g5 18. Nxe5 Nxe5 {+0.77}) 
+17. h4 $2 {+0.21} ({Lc0 v0.21.1 - Better is} 17. Qc2 Qc8 18. Ncd6 Qb8 19. h4 {+0.89}) 17... Nc5 $0 {+0.42} ({Lc0 v0.21.1 - Better is} 17...Kh8 18. b3 h6 19. Rb1 Bxc4 {+0.19}) 
+18. Rxd8 $0 {+0.04} ({Lc0 v0.21.1 - Better is} 18. Nxe5 Nb3 19. Nxc6 Qxc6 20. Qxc6 {+0.42}) Qxd8 $0 {+0.04} 
+19. Nxc5 $0 {-0.31} Bxc5 $0 {+0.00} 
+20. Nxe5 $2 {-0.82} ({asmFishL_2019-04-05_popcnt - Excellent is} 20. Bxe5 fxe5 21. e3 Qf6 22. Qc2 {+0.00}) Bxf2+ $5 {-0.57} 
+21. Kh2 $0 {-0.80} fxe5 $0 {-0.72} 
+22. Bxe5 $0 {-0.85} 22... Bd4 $0 {-0.62} ({asmFishL_2019-04-05_popcnt - Also playable is} 22...Bb6 23. Bf4 h6 24. Ra3 Rf7 {-0.75}) 
+{, with the idea of Bxe5} 23. Bf4 $0 {-1.03} {, with the idea of e3} Qb6 $3 {-0.50} 
+24. Qc2 $0 {-0.80} 24... Bb3 $2 {-0.19} ({asmFishL_2019-04-05_popcnt - Excellent is} 24...Rf7 {-0.95}) 
+25. Qc1 $2 {-1.17} ({asmFishL_2019-04-05_popcnt - Excellent is} 25. Qd3 Rd8 26. Bc7 Qxc7 27. Qxb3+ {-0.22}) 25... Qb4 $0 {-0.62} ({asmFishL_2019-04-05_popcnt - Better is} 25...Bf7 {-0.90}) 
+26. Bd2 $4 {-1.94} ({asmFishL_2019-04-05_popcnt - Excellent is} 26. Bf3 {-0.78}) 26... Qd6 $2 {-0.39} ({asmFishL_2019-04-05_popcnt - Excellent is} 26...Qe7 27. Bc3 {-1.56}) 
+27. Bf4 $2 {-1.13} ({asmFishL_2019-04-05_popcnt - Better is} 27. Ra3 {-0.51}) Qb4 $5 {-0.78} 
+28. Bd2 $4 {-1.84} ({asmFishL_2019-04-05_popcnt - Excellent is} 28. Ra3 Be6 29. Bd2 Qxb2 30. Qxb2 {-0.96}) Qe7 $5 {-1.65} 
+{, with the idea of Rf2} 29. Bc3 $0 {-1.76} 29... Be3 $2 {-1.45} ({asmFishL_2019-04-05_popcnt - Better is} 29...Bb6 30. Qg5 Qxg5 31. hxg5 Rf2 {-1.77}) 
+30. Qe1 {-7.45} Bf2 {-7.00} 31. Qd2 {-319.89} Bxg3+ {-319.90} 
+32. Kxg3 {-319.93} Qc7+ {-319.94} 33. Kg4 {-319.95} Be6+ {-319.96} 
+(-- {WhiteAveError=0.66, BlackAveError=0.43, ratingDiff=52}) 0-1
+
+[Event "US Championship (Women)"]
+[Site "St Louis, MO USA"]
+[Date "2019.03.31"]
+[Round "11.1"]
+[White "Jennifer R Yu"]
+[Black "Carissa Shiwen Yip"]
+[Result "1-0"]
+[EventDate "2019.03.20"]
+[ECO "A10"]
+[WhiteElo "2273"]
+[BlackElo "2279"]
+[PlyCount "103"]
+[Annotator "leela+sf"]
+
+{Threads 2, @ 20.0s/pos}
+1. c4 g6 2. Nc3 Bg7 
+3. g3 e6 4. Bg2 Ne7 
+5. d4 d5 6. cxd5 exd5 
+7. Nf3 O-O 8. O-O $0 {+0.11} ({Lc0 v0.21.1 - Better is} 8. h4 h6 9. Bf4 c6 10. Qd2 {+0.35}) 8... Nbc6 $6 {+0.41} ({Lc0 v0.21.1 - Better is} 8...Nd7 9. b4 Nf6 10. a4 Ne4 {+0.11}) 
+9. a3 $0 {+0.08} ({Lc0 v0.21.1 - Better is} 9. h3 Nf5 10. Bg5 Nce7 11. e4 {+0.42}) Nf5 $0 {+0.14} 
+10. e3 $0 {+0.05} ({Lc0 v0.21.1 - Also playable is} 10. Bg5 Nce7 11. h4 c6 12. Re1 {+0.14}) 10... a6 $6 {+0.30} ({Lc0 v0.21.1 - Better is} 10...Nce7 11. b4 a6 12. a4 Nd6 {+0.04}) 
+11. Ne1 $0 {-0.01} ({Lc0 v0.21.1 - Better is} 11. Re1 Re8 12. Bd2 Nce7 13. e4 {+0.30}) Nce7 $0 {+0.09} 
+12. Nd3 $0 {-0.10} ({Lc0 v0.21.1 - Better is} 12. Qb3 c6 13. Na4 Re8 14. Qb6 {+0.09}) c6 $0 {-0.03} 
+13. b3 $0 {-0.07} Nd6 $0 {+0.00} 
+14. a4 $0 {-0.07} a5 $0 {-0.02} 
+15. Ba3 $0 {-0.07} Re8 $0 {-0.03} 
+16. Re1 $0 {-0.12} Nef5 $0 {-0.07} 
+17. Qc2 $6 {-0.16} ({Lc0 v0.21.1 - Also playable is} 17. Rc1 h5 18. h3 Bf8 19. Bc5 {-0.07}) h5 $0 {-0.08} 
+18. h3 $0 {-0.13} Nh6 $0 {+0.00} 
+19. Rad1 $6 {-0.30} ({Lc0 v0.21.1 - Better is} 19. Nf4 Nhf5 20. Rad1 Bd7 21. Nd3 {+0.00}) Bf5 $0 {-0.20} 
+20. Qc1 $0 {-0.47} ({Lc0 v0.21.1 - Better is} 20. Rc1 Ne4 21. Nxe4 Bxe4 22. Bxe4 {-0.20}) 20... Rc8 $6 {+0.21} ({Lc0 v0.21.1 - Better is} 20...Ne4 21. Nf4 Nf6 22. Nd3 Rc8 {-0.47}) 
+21. Nf4 $0 {+0.10} 21... Kh8 $6 {+0.42} ({Lc0 v0.21.1 - Better is} 21...Be6 22. e4 dxe4 23. Bxd6 Qxd6 {+0.10}) 
+22. f3 $0 {+0.36} b5 $0 {+0.44} 
+23. Bc5 $4 {-2.05} ({Lc0 v0.21.1 - Excellent is} 23. axb5 Nxb5 24. Nxb5 cxb5 25. Bc5 {+0.43}) b4 $0 {-1.93} 
+24. Nce2 $0 {-2.12} Nb7 $0 {-2.00} 
+25. Nd3 $0 {-2.41} 25... Qg5 $6 {+0.23} ({Lc0 v0.21.1 - Excellent is} 25...Kh7 26. Nf2 Nxc5 27. dxc5 Qc7 {-2.37}) 
+26. Kf2 $4 {-2.81} ({Lc0 v0.21.1 - Excellent is} 26. e4 Qxc1 27. Nexc1 Nxc5 28. Nxc5 {+0.23}) Bxd3 $0 {-2.45} 
+27. Rxd3 $0 {-2.61} 27... Nxc5 $2 {-1.67} ({Lc0 v0.21.1 - Excellent is} 27...Qf6 28. Bb6 Nf5 29. g4 Nh4 {-2.61}) 
+28. Qxc5 $0 {-1.75} 28... Nf5 $2 {+0.08} ({Lc0 v0.21.1 - Excellent is} 28...Qf5 29. Qc2 Qf6 30. Kg1 Qd6 {-1.75}) 
+29. e4 $0 {+0.05} 29... Bf8 $2 {+1.08} ({Lc0 v0.21.1 - Excellent is} 29...Bxd4+ 30. Nxd4 Qxg3+ 31. Kf1 Nh4 {+0.06}) 
+30. Qc1 $0 {+1.18} Qxc1 $0 {+0.62} 
+31. Rxc1 $0 {+0.40} 31... Ng7 $0 {+0.64} ({asmFishL_2019-04-05_popcnt - Better is} 31...dxe4 {+0.39}) 
+32. Rd2 $2 {-0.12} ({asmFishL_2019-04-05_popcnt - Excellent is} 32. exd5 cxd5 33. Rxc8 Rxc8 34. f4 {+0.67}) 32... Ne6 $6 {+0.70} ({asmFishL_2019-04-05_popcnt - Excellent is} 32...h4 {-0.34}) 
+{, with the idea of dxe4} 33. exd5 $1 {+0.40} cxd5 $0 {+0.65} 
+34. Rxc8 $0 {+0.42} Rxc8 $0 {+0.60} 
+35. f4 $0 {+0.61} 35... Rd8 $0 {+0.62} ({asmFishL_2019-04-05_popcnt - Better is} 35...h4 36. gxh4 Bh6 37. Bxd5 Nxf4 {+0.47}) 
+36. Rc2 $5 {+0.47} 36... Bh6 $4 {+1.53} ({asmFishL_2019-04-05_popcnt - Excellent is} 36...h4 37. g4 Bh6 38. f5 gxf5 {+0.41}) 
+37. Rc6 $2 {+1.28} ({asmFishL_2019-04-05_popcnt - Better is} 37. h4 Bf8 38. Rc6 Be7 39. Ke3 {+1.79}) 37... h4 $0 {+1.36} ({asmFishL_2019-04-05_popcnt - Also playable is} 37...Bg7 {+1.23}) 
+38. Ra6 $5 {+1.16} 38... hxg3+ $4 {+1.95} ({asmFishL_2019-04-05_popcnt - Better is} 38...Bg7 39. Rxa5 Nxd4 40. Bxd5 hxg3+ {+1.24}) 
+39. Kxg3 $0 {+1.67} 39... Bg7 $0 {+2.03} ({asmFishL_2019-04-05_popcnt - Better is} 39...Bf8 40. Rxa5 Nc7 41. Ra7 Bd6 {+1.82}) 
+40. Rxa5 $0 {+2.04} {, with the idea of Rxd5} Nxd4 $0 {+2.12} 
+41. Nxd4 $0 {+1.98} Bxd4 $0 {+2.03} 
+42. Bxd5 $0 {+1.95} 42... Kg7 $0 {+2.30} ({asmFishL_2019-04-05_popcnt - Better is} 42...f5 {+2.08}) 
+43. Rb5 $0 {+2.16} Ba7 $0 {+2.32} 
+44. Kf3 $5 {+2.30} ({asmFishL_2019-04-05_popcnt - Also playable is} 44. a5 Rb8 45. Bb7 Rd8 46. Rxb4 {+2.30}) 44... Kf6 $0 {+2.57} ({asmFishL_2019-04-05_popcnt - Better is} 44...Rb8 45. Ra5 {+1.95}) 
+45. Ke4 $0 {+2.11} ({asmFishL_2019-04-05_popcnt - Better is} 45. Bc4 Rb8 46. Rd5 Ke7 47. Kg4 {+2.56}) Rb8 {+7.35} 46. Rxb8 $0 {+4.95} Bxb8 {+8.37} 
+47. a5 {+7.02} Ke7 $0 {+4.61} 
+48. a6 {+9.02} f6 {+11.33} 49. h4 {+12.97} Ba7 {+55.31} 
+50. f5 {+66.78} g5 {+132.69} 51. h5 {+319.34} Kf8 {+319.61} 
+52. h6 {+132.70} (-- {WhiteAveError=0.81, BlackAveError=0.79, ratingDiff=5}) 1-0
+
